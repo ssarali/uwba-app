@@ -46,5 +46,4 @@ testem.log
 Thumbs.db
 /.vs/uwba-app/v15
 
-.vs
-.sqlite
+.vs/
