@@ -1,63 +1,175 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div class="container-fluid mt-3 pl-4 pr-4 pb-4">
+<!-- TITLE PAGE -->
+<div class="mt-1 pb-3" style="padding-bottom: 250px;">
+  <!--DESKTOP MENU-->
+  <div class="hide-mobile">
+    <div style="position: relative">
+      <img class="img-fluid" style="z-index: 100;margin-left:auto;margin-right:auto;left:0;right:0;width:250px;height:250px;position: absolute;top: -63px" src="assets/photos/uwba_logo.png" />
+      <span class="dot" style="position: absolute;
+      width: 257px;
+      height: 257px;
+      margin-left:auto;margin-right:auto;left:0;right:0;
+      z-index: 99;
+      border-radius: 50%;
+      top: -70px;
+      background: #FFFFFF;"></span>
+    </div>
+    <ul class="nav justify-content-center" style="margin-top: 50px; font-size: 20px">
+      <li class="nav-item ml-5">
+        <a class="nav-link" href="#">Interviews</a>
+      </li>
+      <li class="nav-item" style="padding-left:15px;padding-right:150px;">
+        <a class="nav-link disabled" href="#">Blogs</a>
+      </li>
+      <li class="nav-item" style="padding-left:150px;padding-right:15px">
+        <a class="nav-link disabled" href="#">About</a>
+      </li>
+      <li class="nav-item mr-5">
+        <a class="nav-link disabled" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+  
 
-  <div class="row">
-    <nav class="navbar navbar-expand">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+  <!--MOBILE MENU-->
+  <div class="show-mobile" style="font-size: 50px">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">UWBA.</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02" style="font-size: 15px">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item">
             <a class="nav-link" href="#">Interviews</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>          
-        </ul>
-      </div>
-      <img class="img-fluid rounded" src="assets/photos/uwba_logo.png" style="height: 300px; width: 300px" />
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Backpacking</a>
+            <a class="nav-link disabled" href="#">Blogs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link disabled" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
   </div>
 
-  <div class="jumbotron jumbotrong-fluid bg-dark text-center" style="height:100vh; color: white">
-    <div class="container-full-bg">
-      <h1 class="display-4">{{title}}</h1>
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-      <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-      </p>
-    </div>   
+  <!--TITLE PAGE-->
+  <div class="container hide-mobile">
+    <div class="row">
+      <div class="col-sm-12 col-md-4 p-0">
+        <img class="img-fluid title_photos" src="assets/photos/city.jpg" />
+      </div>
+      <div class="col-sm-12 col-md-4 p-0">
+        <img class="img-fluid title_photos" src="assets/photos/city.jpg" />
+      </div>
+      <div class="col-sm-12 col-md-4 p-0">
+        <img class="img-fluid title_photos" src="assets/photos/city.jpg" />
+      </div>
+    </div>
   </div>
 
-  <div class="row">
-    <div class="col-md-6">
-      <img class="img-fluid rounded w-100" src="assets/photos/ruiqi_li.png" />
-      <a class="btn btn-primary btn-lg" href="interviews/ruiqi_li.html" role="button">Read More</a>
+  <div class="show-mobile">
+    <div class="col-md-12 p-0">
+      <img class="img-fluid title_photos" src="assets/photos/city.jpg" />
     </div>
-    <div class="col-md-3">
-      <img class="img-fluid rounded w-100" src="assets/photos/katy_perry.jpg" />
+  </div>
+
+  <h1 style="text-align: center; z-index: 100;margin-left:auto;margin-right:auto;left:0;right:0;width:500px;height:500px;position: absolute; top: 350px; color:white">{{title}}</h1>
+
+</div>
+
+<!-- INTERVIEW CONTAINER -->
+<div class="container pl-4 pr-4 pb-4" style="padding-bottom: 100px">
+  <div class="row mt-4">
+
+    <!-- FEATURED PHOTO -->
+    <div class="col-md-12 col-lg-6 pb-3" style="position:relative;">
+      <img class="img-fluid w-100" src="assets/photos/real_ruiqi_li.png" />
+      <div style="z-index: 100;width:250px;height:250px;position: absolute;bottom: 15px; color: white; font-size: 60px; left: 50px">
+        <p>
+          <b>Ruiqi Li</b>
+        </p>
+        <button type="button" class="mx-auto d-block btn m-0" style="border-radius: 0px; background-color:#f0f0f0; width: 250px">Read Interview</button>
+      </div>
     </div>
-    <div class="col-md-3">
-      <img class="img-fluid rounded w-100" src="assets/photos/twins.jpg" />
-      <p style="white-space: pre-wrap">
-        i likenfakjfnaknfakdnksdnggggggggggggggggggggggggggggggg
-      </p>
+
+    <!-- SCROLLABLE INTERVIEW PHOTO -->
+    <div class="col-md-12 col-lg-6 pb-3" style="height:100vh; overflow-y: scroll;">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <img class="img-fluid w-100" src="assets/photos/ruiqi_li.png" />
+            <div style="overflow-wrap:break-word" class="mt-3 mb-3">
+              <b style="font-size:25px">Ruiqi Li</b><br />
+              In the future, I might
+              even pass you on the streets, maybe of New York, and we probably won&#39;t even
+              recognise each other. Because the person we become will never be the same as the
+              the childish, foolish, crazy one in our Polaroids.
+            </div>
+            <img class="img-fluid w-100" src="assets/photos/katy_perry.jpg" />
+            <div style="overflow-wrap:break-word" class="mt-3 mb-3">
+              <b style="font-size:25px">Ruiqi Li</b><br />
+              In the future, I might
+              even pass you on the streets, maybe of New York, and we probably won&#39;t even
+              recognise each other. Because the person we become will never be the same as the
+              the childish, foolish, crazy one in our Polaroids.
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <img class="img-fluid w-100" src="assets/photos/twins.jpg" />
+            <div style="overflow-wrap:break-word" class="mt-3 mb-3">
+              <b style="font-size:25px">Ruiqi Li</b><br />
+              In the future, I might
+              even pass you on the streets, maybe of New York, and we probably won&#39;t even
+              recognise each other. Because the person we become will never be the same as the
+              the childish, foolish, crazy one in our Polaroids.
+            </div>
+            <img class="img-fluid w-100" src="assets/photos/katy_perry.jpg" />
+            <div style="overflow-wrap:break-word" class="mt-3 mb-3">
+              <b style="font-size:25px">Ruiqi Li</b><br />
+              In the future, I might
+              even pass you on the streets, maybe of New York, and we probably won&#39;t even
+              recognise each other. Because the person we become will never be the same as the
+              the childish, foolish, crazy one in our Polaroids.
+            </div>
+          </div>
+
+          <!-- SEE ALL INTERVIEWS BUTTON -->
+          
+          <button type="button" class="mx-auto d-block btn" style="width: 320px; background-color:#f0f0f0; border-radius: 0px">See All Interviews</button>
+
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
+<!-- FOOTER -->
+
+<div style="height: 280px; padding-top: 70px; font-size: 19px" class="w-100 text-center">
+  <strong>Follow us! Be the first to hear about our <br/> new interviews, blogs, and events!</strong>
+  <ul class="nav justify-content-center pt-3">
+    <li class="nav-item">
+      <a class="nav-link" href="#"><img style="height: 50px; width: 50px" src="assets/photos/insta_logo.png"/></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.facebook.com/groups/360989171335320/"><img style="height: 50px; width: 50px" src="assets/photos/fb_logo.png" /></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#"><img style="height: 50px; width: 50px" src="assets/photos/email_logo.png" /></a>
+    </li>
+  </ul>
+</div>
+
+<div style="background-color:#1d1d1d; height: 150px; padding-top: 65px" class="w-100 text-center">
+  <p class="mb-0" style="color: white; display: inline">Interviews / </p>
+  <p class="mb-0" style="color: white; display: inline">Blogs / </p>
+  <p class="mb-0" style="color: white; display: inline">About / </p>
+  <p class="mb-0" style="color: white; display: inline">Contact</p>
+</div>
 
 
