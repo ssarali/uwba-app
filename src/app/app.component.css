@@ -32,3 +32,8 @@ body {
     display: block;
   }
 }
+
+.title_photos {
+  -webkit-filter: brightness(30%);
+  filter: brightness(30%)
+}

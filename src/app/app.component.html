@@ -1,5 +1,6 @@
 <!-- TITLE PAGE -->
 <div class="mt-1 pl-4 pr-4 pb-3" style="padding-bottom: 250px">
+  <!--DESKTOP MENU-->
   <div class="hide-mobile">
     <div style="position: relative">
       <img class="img-fluid" style="z-index: 100;margin-left:auto;margin-right:auto;left:0;right:0;width:250px;height:250px;position: absolute;top: -63px" src="assets/photos/uwba_logo.png" />
@@ -20,26 +21,46 @@
     </ul>
   </div>
 
+  <!--MOBILE MENU-->
   <div class="show-mobile" style="font-size: 50px">
-    <p>UWBA.</p>
-    <i class="fas fa-align-justify"></i>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Regular link</a>
-      <a class="dropdown-item" href="#">Disabled link</a>
-      <a class="dropdown-item" href="#">Another link</a>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">UWBA.</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Interviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>        
+      </div>
+    </nav>
   </div>
 
+  <!--TITLE PAGE-->
   <div class="container hide-mobile">
     <div class="row">
       <div class="col-sm-12 col-md-4 p-0">
-        <img class="img-fluid" style="-webkit-filter: brightness(30%); filter: brightness(30%);" src="assets/photos/city.jpg" />
+        <img class="img-fluid title_photos" src="assets/photos/city.jpg" />
       </div>
       <div class="col-sm-12 col-md-4 p-0">
-        <img class="img-fluid" style="-webkit-filter: brightness(30%); filter: brightness(30%);" src="assets/photos/city.jpg" />
+        <img class="img-fluid title_photos" src="assets/photos/city.jpg" />
       </div>
       <div class="col-sm-12 col-md-4 p-0">
-        <img class="img-fluid" style="-webkit-filter: brightness(30%); filter: brightness(30%);" src="assets/photos/city.jpg" />
+        <img class="img-fluid title_photos" src="assets/photos/city.jpg" />
       </div>
       <h1 style="color:white; position:absolute; top: 270px; z-index:100">{{title}}</h1>
     </div>
@@ -57,8 +78,8 @@
   <div class="row mt-4">
 
     <!-- FEATURED PHOTO -->
-    <div class="col-md-12 col-lg-6 pb-3">
-      <img class="img-fluid w-100" src="assets/photos/featured.jpg" />
+    <div class="col-md-12 col-lg-6 pb-3" style="position:relative;">
+      <img class="img-fluid w-100" src="assets/photos/featured.jpg"/>
     </div>
 
     <!-- SCROLLABLE INTERVIEW PHOTO -->
