@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-declare var $: any;
-
 
 @Component({
   selector: 'app-root',
@@ -8,8 +6,5 @@ declare var $: any;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = "WHAT'S YOUR STORY?";
-
-  openMenu(): void {
-  }
+  title = 'UW Backpackers Association';
 }
