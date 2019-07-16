@@ -10,6 +10,4 @@ declare var $: any;
 export class AppComponent {
   title = "WHAT'S YOUR STORY?";
 
-  openMenu(): void {
-  }
 }
