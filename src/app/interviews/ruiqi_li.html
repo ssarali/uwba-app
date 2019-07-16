@@ -6,10 +6,14 @@
   <title></title>
   <script src="https://kit.fontawesome.com/9649fe8961.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
   <style>
+    body{
+      font-family: 'Roboto Slab', serif;
+
+    }
     .main_body {
       margin: 0 100px 0 100px;
-
       //border: 2px black solid;
       height: 5000px;
     }
@@ -33,11 +37,17 @@
     h1 {
       font-size: 3rem;
       line-height: 3.8rem;
-      font-weight: 600;
+      font-weight: 700;
     }
 
     #main_heading {
       padding-top: 5em;
+      padding-left: 2em;
+    }
+
+    h3{
+      font-size: 1.5em;
+      padding-top: 10px;
     }
 
     .question_heading {
@@ -46,82 +56,93 @@
       padding: 20px 0 20px 0;
       line-height: 1.3em;
     }
-    .social_fonts{
+
+    .social_fonts {
       font-size: 2.5em;
     }
-    #facebook_icon{
+
+    #facebook_icon {
       margin: 80px 6px 6px 6px;
     }
-    #instagram_icon{
+
+    #instagram_icon {
       margin: 20px 6px 6px 6px;
     }
-    #main_question_area{
+
+    #main_question_area {
       padding: 50px 75px 50px 75px;
     }
-    .answer_text{
+
+    .answer_text {
       font-size: 1em;
     }
-    .full_sized_image{
+
+    .full_sized_image {
       width: 100%;
       padding: 30px 0 30px 0;
     }
-    .img-gallery_individual{
-     width: 20%;
-     padding: 2px;
+
+    .img-gallery_individual {
+      width: 20%;
+      padding: 2px;
     }
-    .image_gallery{
+
+    .image_gallery {
       justify-content: center;
       text-align: center;
       margin-top: 30px;
     }
+
     .generic-blockquote {
       padding: 20px 40px 20px 10px;
       border-left: 2px solid #f8b600;
-      margin-top:2em;
+      margin-top: 2em;
       width: 70%;
     }
-    blockquote{
+
+    blockquote {
       margin-top: 8em;
       margin-right: 8em;
       margin-left: 8em;
       margin-bottom: 0;
     }
-    div.sticky{
+
+    div.sticky {
       position: sticky;
     }
-    .social-panel-fixed{
-      
+
+    .social-panel-fixed {
     }
-
-
   </style>
 
 
 
 </head>
 <body>
-  <div class="main_body">
 
-    <div style="height:100px;border:solid black 1px;"> This is where the navbar is supposed to be </div>
+    <div style="height:100px;"> This is where the navbar is supposed to be </div>
 
     <div class="row row_spacing">
-      <div class="col-4 border-single" id="main_heading">
-        <h1>Insert a catchy title about the interview </h1>
-        <h3>-Ruiqi Li</h3>
+      <div class="col-md-4 col-sm-12 border-single" id="main_heading">
+        <h1> "I started backpacking by accident" </h1>
+        <h3>Follow along Ruiqi Li's journey on how backpacking became her biggest passion </h3>
       </div>
-      <div class="col-8 p-0 border-single">
+      <div class="col-md-8 col-sm-12 p-0 border-single">
           <img id ="ruiqi_li"src="ruiqi_li.jpg">
       </div>
     </div>
 
-    <div class="row row_spacing">
+  <div class="main_body">
 
-      <div class="col-1 border-single social-panel-fixed">
+    <div class="row row_spacing">
+      <div class="col-1 border-single social-panel-fixed d-sm-none d-xs-none d-md-block">
         <div class="social-panel-fixed">
           <i class="fab fa-facebook social_fonts" id="facebook_icon"></i>
           <i class="fab fa-instagram social_fonts" id="instagram_icon"></i>
         </div>
       </div>
+
+
 
       <div class="col-11 border-single" id="main_question_area">
 
@@ -315,7 +336,6 @@
         
       </div>
       </div>
-
-  </div>
+    </div>
 </body>
 </html>
