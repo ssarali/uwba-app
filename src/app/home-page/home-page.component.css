@@ -1,0 +1,38 @@
+body {
+  overflow-x: hidden !important;
+}
+
+.container {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+@media screen and (min-width: 0px) and (max-width: 811px) {
+  .show-mobile {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 812px) {
+  .show-mobile {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 811px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 812px) {
+  .hide-mobile {
+    display: block;
+  }
+}
+
+.title_photos {
+  -webkit-filter: brightness(30%);
+  filter: brightness(30%)
+}
