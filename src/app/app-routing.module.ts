@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { InterviewsComponent } from './interviews/interviews.component';
+import { RuiqiLiComponent } from './interviews/ruiqi-li.component';
 import { HomePageComponent } from './home-page/home-page.component';
 
 export const appRoutes: Routes = [
@@ -10,7 +10,7 @@ export const appRoutes: Routes = [
   },
   {
     path: 'interviews',
-    component: InterviewsComponent
+    component: RuiqiLiComponent
   },
   {
     path: '**', component: HomePageComponent

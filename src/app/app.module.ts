@@ -8,14 +8,14 @@ import * as $ from 'jquery';
 import { RouterModule, Routes } from '@angular/router';
 import { appRoutes } from './app-routing.module';
 
-import { InterviewsComponent } from './interviews/interviews.component';
+import { RuiqiLiComponent } from './interviews/ruiqi-li.component';
 import { HomePageComponent } from './home-page/home-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
-    InterviewsComponent
+    RuiqiLiComponent,
   ],
   imports: [
     BrowserModule,
