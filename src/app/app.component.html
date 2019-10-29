@@ -15,18 +15,18 @@
       top: -60px;
       background: #FFFFFF;"></span>
     </div>
-    <ul class="nav justify-content-center" style="margin-top: 50px; font-size: 20px">
+    <ul class="nav justify-content-center" style="margin-top: 50px; font-size: 22px">
       <li class="nav-item ml-5">
-        <a class="nav-link" routerLink="/all-interviews-page">Interviews</a>
+        <a class="nav-link" routerLink="/all-interviews-page">interviews</a>
       </li>
-      <li class="nav-item" style="padding-left:15px;padding-right:150px;">
-        <a class="nav-link disabled" href="#">Blogs</a>
+      <li class="nav-item" style="padding-left:40px;padding-right:175px;">
+        <a class="nav-link" routerLink="/tips">tips</a>
       </li>
-      <li class="nav-item" style="padding-left:150px;padding-right:15px">
-        <a class="nav-link disabled" href="#">About</a>
+      <li class="nav-item" style="padding-left:175px;padding-right:40px">
+        <a class="nav-link " href="#">about</a>
       </li>
       <li class="nav-item mr-5">
-        <a class="nav-link disabled" href="#">Contact</a>
+        <a class="nav-link " href="#">contact</a>
       </li>
     </ul>
   </div>
@@ -41,16 +41,16 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02" style="font-size: 15px">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#">Interviews</a>
+            <a class="nav-link" href="#">interviews</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Blogs</a>
+            <a class="nav-link disabled" href="#">tips</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">About</a>
+            <a class="nav-link disabled" href="#">about</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Contact</a>
+            <a class="nav-link disabled" href="#">contact</a>
           </li>
         </ul>
       </div>
@@ -62,7 +62,7 @@
 
 <!-- FOOTER -->
 <div style="height: 280px; padding-top: 70px; font-size: 19px" class="w-100 text-center">
-  <strong>Follow us! Be the first to hear about our <br /> new interviews, blogs, and events!</strong>
+  <strong>Follow us! Be the first to hear about our <br /> new interviews, tips, and events!</strong>
   <ul class="nav justify-content-center pt-3">
     <li class="nav-item">
       <a class="nav-link" href="#"><img style="height: 50px; width: 50px" src="assets/photos/insta_logo.png" /></a>
@@ -77,8 +77,10 @@
 </div>
 
 <div style="background-color:#1d1d1d; height: 150px; padding-top: 65px" class="w-100 text-center">
-  <p class="mb-0" style="color: white; display: inline">Interviews / </p>
-  <p class="mb-0" style="color: white; display: inline">Blogs / </p>
-  <p class="mb-0" style="color: white; display: inline">About / </p>
-  <p class="mb-0" style="color: white; display: inline">Contact</p>
+  <p>
+    <a routerLink="/all-interviews-page" class="mb-0" style="color: white; display: inline" >Interviews / </a>
+    <a routerLink="/all-interviews-page" class="mb-0" style="color: white; display: inline" >Tips / </a>
+    <a routerLink="/all-interviews-page" class="mb-0" style="color: white; display: inline" >About / </a>
+    <a routerLink="/all-interviews-page" class="mb-0" style="color: white; display: inline" >Contact</a>
+  </p>
 </div>

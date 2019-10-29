@@ -1,11 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\e2e",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\interviews",
-    "\\src\\assets",
-    "\\src\\assets\\photos"
+    "\\src\\app\\all-interviews-page"
   ],
+  "SelectedNode": "\\src\\app\\all-interviews-page\\all-interviews-page.component.html",
   "PreviewInSolutionExplorer": false
 }

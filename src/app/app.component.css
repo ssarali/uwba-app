@@ -36,3 +36,9 @@ body {
   -webkit-filter: brightness(30%);
   filter: brightness(30%)
 }
+a{
+  color: #696969;
+}
+a:hover{
+ color: #B84A4A;
+}
