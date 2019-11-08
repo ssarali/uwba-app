@@ -37,13 +37,49 @@
             </div>
    </div>
 
-
-   <div [ngSwitch]="selectedLink" class="col-9">
-        <div *ngSwitchCase="'Hostels'">
-            <div class="row" *ngFor="let accommodation of accommodations">
-                <div class="col-3" *ngFor="let eachAccommodation of accommodation">
+  <div [ngSwitch]="selectedLink" class="col-9">
+    <div *ngSwitchCase="'Hostels'">
+        <div class = "row" *ngFor="let rowHostels of hostelsList">
+            <div class="col-3 max-dimensions" *ngFor="let eachHostel of rowHostels">
+                <div class="card card-styling">
+                    <a href="{{eachHostel.websiteUrl}}"><img class=" max-dimensions border" src={{eachHostel.imageUrl}}></a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- 
+  <div [ngSwitch]="selectedLink" class="col-9">
+        <div *ngSwitchCase="'Hotels'">
+            <div class = "row" *ngFor="let rowHotels of hotelsList">
+                <div class="col-3" *ngFor="let eacHotel of rowHotels">
                     <div class="card">
-                        <p>{{eachAccommodation}}</p>
+                        <p>{{eachHotel.imageUrl}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </div>
+
+  <div [ngSwitch]="selectedLink" class="col-9">
+        <div *ngSwitchCase="'Hotels'">
+            <div class = "row" *ngFor="let rowAirbnb of airbnbList">
+                <div class="col-3" *ngFor="let eachAirbnb of rowAirbnb">
+                    <div class="card">
+                        <p>{{eachAirbnb.imageUrl}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </div> -->
+  
+
+   <!-- <div [ngSwitch]="selectedLink" class="col-9">
+        <div *ngSwitchCase="'Hostels'">
+            <div class="row" *ngFor="let hostels of hostelsList">
+                <div class="col-3" *ngFor="let eachHostel of hostels">
+                    <div class="card">
+                        <p>{{eachHostel}}</p>
                     </div>  
                 </div>
             </div>
@@ -194,7 +230,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 <!-- 
    <div [ngSwitch]="selectedLink" class = "col-9" >
         <div *ngSwitchCase="'Hostels'">

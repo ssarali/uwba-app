@@ -1,4 +1,8 @@
-.dropdown-option{
-    margin: 0;
-    padding: 0;
+.card-styling{
+    max-width: 120px;
+    max-height: 60px;
+}
+.max-dimensions{
+    max-width: 100%;
+    max-height: 100%;
 }
