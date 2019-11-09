@@ -18,7 +18,7 @@ export class TipsComponent implements OnInit {
     hostelsList = [
        [
           {
-            "imageUrl": "assets/photos/tips/accommodations/hotelscombined.png",
+            "imageUrl": "assets/photos/tips/accommodations/hostelscombined.png",
             "websiteUrl": "https://www.hotelscombined.com/"
           },
           {
@@ -26,7 +26,7 @@ export class TipsComponent implements OnInit {
             "websiteUrl": "https://www.hostelbookers.com/"
           },
           {
-            "imageUrl": "assets/photos/tips/accommodations/hostelworld.png",
+            "imageUrl": "assets/photos/tips/accommodations/hostelworld1.png",
             "websiteUrl": "https://www.hostelworld.com/"
           },
           {
@@ -48,7 +48,7 @@ export class TipsComponent implements OnInit {
             "websiteUrl": "https://www.hostelscentral.com/"
           },
           {
-            "imageUrl": "assets/photos/tips/accommodations/hicanada.png",
+            "imageUrl": "assets/photos/tips/accommodations/hicanada1.png",
             "websiteUrl": "https://hihostels.ca/en/destinations/ontario/hi-toronto"
           }
         ],

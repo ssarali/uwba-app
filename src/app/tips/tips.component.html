@@ -1,5 +1,5 @@
-<div class="row border" style="margin-top: 100px">
-   <div class="col-3 border">
+<div class="row" style="margin-top: 100px">
+   <div class="col-3">
             <button (click) = "showAccommodationDropDown()" >Accommodation</button>
             <div *ngIf="accommodationDropdown" class="dropdown-option">
                 <div (click) = "showLinks($event)">
@@ -40,9 +40,9 @@
   <div [ngSwitch]="selectedLink" class="col-9">
     <div *ngSwitchCase="'Hostels'">
         <div class = "row" *ngFor="let rowHostels of hostelsList">
-            <div class="col-3 max-dimensions" *ngFor="let eachHostel of rowHostels">
-                <div class="card card-styling">
-                    <a href="{{eachHostel.websiteUrl}}"><img class=" max-dimensions border" src={{eachHostel.imageUrl}}></a>
+            <div class="col-3 max-dimensions " *ngFor="let eachHostel of rowHostels">
+                <div class="card card-styling ">
+                    <a style="vertical-align: middle;" href="{{eachHostel.websiteUrl}}"><img class="max-dimensions" src={{eachHostel.imageUrl}}></a>
                 </div>
             </div>
         </div>
