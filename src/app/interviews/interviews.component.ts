@@ -5,9 +5,9 @@ import { QuestionsModel } from './QuestionsModel';
 
 @Component({
   //this is the tag name which will be used in different component files
-  selector: 'app-ruiqi-li',
-  templateUrl: './ruiqi-li.component.html',
-  styleUrls: ['./ruiqi-li.component.css']
+  selector: 'app-interviews',
+  templateUrl: './interviews.component.html',
+  styleUrls: ['./interviews.component.css']
   //also include here if the component is using any services
 })
 export class InterviewsComponent implements OnInit {
