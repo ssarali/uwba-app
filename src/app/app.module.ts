@@ -8,7 +8,7 @@ import * as $ from 'jquery';
 import { RouterModule, Routes } from '@angular/router';
 import { appRoutes } from './app-routing.module';
 
-import { RuiqiLiComponent } from './interviews/ruiqi-li.component';
+import { InterviewsComponent } from './interviews/interviews.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { AllInterviewsPageComponent } from './all-interviews-page/all-interviews-page.component';
 import { TipsComponent } from './tips/tips.component';
@@ -19,7 +19,7 @@ import { JoinUsComponent } from './join-us/join-us.component';
   declarations: [
     AppComponent,
     HomePageComponent,
-    RuiqiLiComponent,
+    InterviewsComponent,
     AllInterviewsPageComponent,
     TipsComponent,
     AboutUsComponent,

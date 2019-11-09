@@ -1,21 +1,21 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RuiqiLiComponent } from './ruiqi-li.component';
+import { InterviewsComponent } from './interviews.component';
 
-describe('RuiqiLiComponent', () => {
-  let component: RuiqiLiComponent;
-  let fixture: ComponentFixture<RuiqiLiComponent>;
+describe('InterviewsComponent', () => {
+  let component: InterviewsComponent;
+  let fixture: ComponentFixture<InterviewsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [RuiqiLiComponent]
+      declarations: [InterviewsComponent]
     })
       .compileComponents();
   }));
 
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(RuiqiLiComponent);
+    fixture = TestBed.createComponent(InterviewsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
