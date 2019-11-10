@@ -1,7 +1,10 @@
 export class IntervieweeModel {
   id: number;
   name: string;
+  headerPhoto: string;
   headerQuote: string;
+  secondQuote: string;
+  thirdQuote: string;
   backpackingInspiration: string
   typicalDay: string;
   interestingBringOnTrip: string;

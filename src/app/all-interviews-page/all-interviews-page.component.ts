@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./all-interviews-page.component.css']
 })
 export class AllInterviewsPageComponent implements OnInit {
-
+   
   constructor() { }
 
+  public intervieweeId: number;
+
   ngOnInit() {
+  }
+
+  sendIntervieweeId(id): void{
+    
   }
 
 }
