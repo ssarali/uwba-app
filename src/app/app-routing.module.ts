@@ -14,7 +14,7 @@ export const appRoutes: Routes = [
     component: HomePageComponent
   },
   { 
-    path: 'interviews:id',
+    path: 'interviews/:id',
     component: InterviewsComponent
   },
   {
