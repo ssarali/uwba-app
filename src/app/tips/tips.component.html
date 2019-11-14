@@ -1,41 +1,99 @@
 <div class="row" style="margin-top: 100px">
    <div class="col-3">
-            <button (click) = "showAccommodationDropDown()" >Accommodation</button>
-            <div *ngIf="accommodationDropdown" class="dropdown-option">
-                <div (click) = "showLinks($event)">
-                   <option value="Hotels" class="border dropdown-option">Hotels</option>
-                   <option value="Hostels" class="border dropdown-option">Hostels</option>
-                   <option value="Airbnb" class="border dropdown-option">Airbnb</option>
+
+        <div class="wrapper1">
+          <div class="link_wrapper1">
+                <div class = "button-text" (click) = "showAccommodationDropDown()">Accommodation</div>
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                        <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 
+                                    12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903
+                                    5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678
+                                    2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882
+                                    4.883-12.796 0-17.678z"/>
+                    </svg>
+                </div>
+                <div *ngIf="accommodationDropdown" class="dropdown-option">
+                    <div (click) = "showLinks($event)">
+                        <option value="Hotels" class="border dropdown-option">Hotels</option>
+                        <option value="Hostels" class="border dropdown-option">Hostels</option>
+                        <option value="Airbnb" class="border dropdown-option">Airbnb</option>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+                
+        <div class="wrapper2">
+            <div class="link_wrapper2">
+                <div class = "button-text" (click) = "showFlightsDropdown()" >Flights</div>
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                        <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 
+                                    12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903
+                                    5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678
+                                    2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882
+                                    4.883-12.796 0-17.678z"/>
+                    </svg>
+                </div>
+                <div *ngIf="flightsDropdown" class="dropdown-option">
+                    <div (click) = "showLinks($event)">
+                        <option value="Hotels" class="border dropdown-option">Hotels</option>
+                        <option value="Hostels" class="border dropdown-option">Hostels</option>
+                        <option value="Airbnb" class="border dropdown-option">Airbnb</option>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+
+
+        <div class="wrapper3">
+            <div class="link_wrapper3">
+                <div class = "button-text" (click) = "showTourismDropdown()">Tourism</div>
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                        <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 
+                                    12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903
+                                    5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678
+                                    2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882
+                                    4.883-12.796 0-17.678z"/>
+                    </svg>
+                </div>
+                <div *ngIf="tourismdropDown" class="dropdown-option">
+                    <div (click) = "showLinks($event)">
+                    <option value="Hotels" class="border dropdown-option">Hotels</option>
+                    <option value="Hostels" class="border dropdown-option">Hostels</option>
+                    <option value="Airbnb" class="border dropdown-option">Airbnb</option>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+
+        <div class="wrapper4">
+            <div class="link_wrapper4">
+                <div class = "button-text" (click) = "showVisaDropdown()">Visa</div>
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                        <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 
+                                    12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903
+                                    5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678
+                                    2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882
+                                    4.883-12.796 0-17.678z"/>
+                    </svg>
+                </div>
+                <div *ngIf="visaDropdown" class="dropdown-option">
+                    <div (click) = "showLinks($event)">
+                        <option value="Hotels" class="border dropdown-option">Hotels</option>
+                        <option value="Hostels" class="border dropdown-option">Hostels</option>
+                        <option value="Airbnb" class="border dropdown-option">Airbnb</option>
+                    </div>
                 </div>
             </div>
-            <br>
-            <button (click) = "showFlightsDropdown()" >Flights</button>
-            <div *ngIf="flightsDropdown" class="dropdown-option">
-                <div (click) = "showLinks($event)">
-                   <option value="Hotels" class="border dropdown-option">Hotels</option>
-                   <option value="Hostels" class="border dropdown-option">Hostels</option>
-                   <option value="Airbnb" class="border dropdown-option">Airbnb</option>
-                </div>
-            </div>
-            <br>
-            <button (click) = "showTourismDropdown()" >Tourism</button>
-            <div *ngIf="tourismdropDown" class="dropdown-option">
-                <div (click) = "showLinks($event)">
-                   <option value="Hotels" class="border dropdown-option">Hotels</option>
-                   <option value="Hostels" class="border dropdown-option">Hostels</option>
-                   <option value="Airbnb" class="border dropdown-option">Airbnb</option>
-                </div>
-            </div>
-            <br>
-            <button (click) = "showVisaDropdown()" >Visa</button>
-            <div *ngIf="visaDropdown" class="dropdown-option">
-                <div (click) = "showLinks($event)">
-                   <option value="Hotels" class="border dropdown-option">Hotels</option>
-                   <option value="Hostels" class="border dropdown-option">Hostels</option>
-                   <option value="Airbnb" class="border dropdown-option">Airbnb</option>
-                </div>
-            </div>
-   </div>
+        </div>
+       
+</div>
 
   <div [ngSwitch]="selectedLink" class="col-9">
     <div *ngSwitchCase="'Hostels'">
@@ -48,492 +106,3 @@
         </div>
     </div>
   </div>
-<!-- 
-  <div [ngSwitch]="selectedLink" class="col-9">
-        <div *ngSwitchCase="'Hotels'">
-            <div class = "row" *ngFor="let rowHotels of hotelsList">
-                <div class="col-3" *ngFor="let eacHotel of rowHotels">
-                    <div class="card">
-                        <p>{{eachHotel.imageUrl}}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-  </div>
-
-  <div [ngSwitch]="selectedLink" class="col-9">
-        <div *ngSwitchCase="'Hotels'">
-            <div class = "row" *ngFor="let rowAirbnb of airbnbList">
-                <div class="col-3" *ngFor="let eachAirbnb of rowAirbnb">
-                    <div class="card">
-                        <p>{{eachAirbnb.imageUrl}}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-  </div> -->
-  
-
-   <!-- <div [ngSwitch]="selectedLink" class="col-9">
-        <div *ngSwitchCase="'Hostels'">
-            <div class="row" *ngFor="let hostels of hostelsList">
-                <div class="col-3" *ngFor="let eachHostel of hostels">
-                    <div class="card">
-                        <p>{{eachHostel}}</p>
-                    </div>  
-                </div>
-            </div>
-        </div>
-        <div *ngSwitchCase="'Hotels'">
-            <div class="row" *ngFor="let accommodation of accommodations">
-                <div class="col-3" *ngFor="let eachAccommodation of accommodation">
-                    <div class="card">
-                        <p>{{eachAccommodation}}</p>
-                    </div>  
-                </div>
-            </div>
-        </div>
-        <div *ngSwitchCase="'Airbnb'">
-            <div class="row" *ngFor="let accommodation of accommodations">
-                <div class="col-3" *ngFor="let eachAccommodation of accommodation">
-                    <div class="card">
-                        <p>{{eachAccommodation}}</p>
-                    </div>  
-                </div>
-            </div>
-        </div>
-        <div *ngSwitchCase="'Hostels'">
-            <div class="row" *ngFor="let accommodation of accommodations">
-                <div class="col-3" *ngFor="let eachAccommodation of accommodation">
-                    <div class="card">
-                        <p>{{eachAccommodation}}</p>
-                    </div>  
-                </div>
-            </div>
-        </div>
-   </div>
-
-   <div [ngSwitch]="selectedLink" class="col-9">
-        <div *ngSwitchCase="'Hostels'">
-            <div class="row" *ngFor="let accommodation of accommodations">
-                <div class="col-3" *ngFor="let eachAccommodation of accommodation">
-                    <div class="card">
-                        <p>{{eachAccommodation}}</p>
-                    </div>  
-                </div>
-            </div>
-        </div>
-        <div *ngSwitchCase="'Hotels'">
-            <div class="row" *ngFor="let accommodation of accommodations">
-                <div class="col-3" *ngFor="let eachAccommodation of accommodation">
-                    <div class="card">
-                        <p>{{eachAccommodation}}</p>
-                    </div>  
-                </div>
-            </div>
-        </div>
-        <div *ngSwitchCase="'Hostels'">
-            <div class="row" *ngFor="let accommodation of accommodations">
-                <div class="col-3" *ngFor="let eachAccommodation of accommodation">
-                    <div class="card">
-                        <p>{{eachAccommodation}}</p>
-                    </div>  
-                </div>
-            </div>
-        </div>
-        <div *ngSwitchCase="'Hostels'">
-            <div class="row" *ngFor="let accommodation of accommodations">
-                <div class="col-3" *ngFor="let eachAccommodation of accommodation">
-                    <div class="card">
-                        <p>{{eachAccommodation}}</p>
-                    </div>  
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div [ngSwitch]="selectedLink" class="col-9">
-        <div *ngSwitchCase="'Hostels'">
-            <div class="row" *ngFor="let accommodation of accommodations">
-                <div class="col-3" *ngFor="let eachAccommodation of accommodation">
-                    <div class="card">
-                        <p>{{eachAccommodation}}</p>
-                    </div>  
-                </div>
-            </div>
-        </div>
-        <div *ngSwitchCase="'Hotels'">
-            <div class="row" *ngFor="let accommodation of accommodations">
-                <div class="col-3" *ngFor="let eachAccommodation of accommodation">
-                    <div class="card">
-                        <p>{{eachAccommodation}}</p>
-                    </div>  
-                </div>
-            </div>
-        </div>
-        <div *ngSwitchCase="'Hostels'">
-            <div class="row" *ngFor="let accommodation of accommodations">
-                <div class="col-3" *ngFor="let eachAccommodation of accommodation">
-                    <div class="card">
-                        <p>{{eachAccommodation}}</p>
-                    </div>  
-                </div>
-            </div>
-        </div>
-        <div *ngSwitchCase="'Hostels'">
-            <div class="row" *ngFor="let accommodation of accommodations">
-                <div class="col-3" *ngFor="let eachAccommodation of accommodation">
-                    <div class="card">
-                        <p>{{eachAccommodation}}</p>
-                    </div>  
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div [ngSwitch]="selectedLink" class="col-9">
-        <div *ngSwitchCase="'Hostels'">
-            <div class="row" *ngFor="let accommodation of accommodations">
-                <div class="col-3" *ngFor="let eachAccommodation of accommodation">
-                    <div class="card">
-                        <p>{{eachAccommodation}}</p>
-                    </div>  
-                </div>
-            </div>
-        </div>
-        <div *ngSwitchCase="'Hotels'">
-            <div class="row" *ngFor="let accommodation of accommodations">
-                <div class="col-3" *ngFor="let eachAccommodation of accommodation">
-                    <div class="card">
-                        <p>{{eachAccommodation}}</p>
-                    </div>  
-                </div>
-            </div>
-        </div>
-        <div *ngSwitchCase="'Hostels'">
-            <div class="row" *ngFor="let accommodation of accommodations">
-                <div class="col-3" *ngFor="let eachAccommodation of accommodation">
-                    <div class="card">
-                        <p>{{eachAccommodation}}</p>
-                    </div>  
-                </div>
-            </div>
-        </div>
-        <div *ngSwitchCase="'Hostels'">
-            <div class="row" *ngFor="let accommodation of accommodations">
-                <div class="col-3" *ngFor="let eachAccommodation of accommodation">
-                    <div class="card">
-                        <p>{{eachAccommodation}}</p>
-                    </div>  
-                </div>
-            </div>
-        </div>
-    </div> -->
-<!-- 
-   <div [ngSwitch]="selectedLink" class = "col-9" >
-        <div *ngSwitchCase="'Hostels'">
-               <div class="row">
-                    <div class="col-3">
-                        <div class="card">
-                            <p>hello my d00d</p>
-                        </div>  
-                    </div>
-                    <div class="col-3">
-                        <div class="card">
-                            <p>hello my d00d</p>
-                        </div>    
-                    </div>
-                    <div class="col-3">
-                        <div class="card">
-                            <p>hello my d00d</p>
-                        </div>                
-                    </div>
-                    <div class="col-3">
-                        <div class="card">
-                            <p>hello my d00d</p>
-                        </div>                   
-                </div>
-               </div>
-
-               <div class="row">
-                    <div class="col-3" >
-                        <div class="card">
-                            <p>hello my d00d</p>
-                        </div>  
-                    </div>
-                    <div class="col-3" >
-                        <div class="card">
-                            <p>hello my d00d</p>
-                        </div>    
-                    </div>
-                    <div class="col-3" >
-                        <div class="card">
-                            <p>hello my d00d</p>
-                        </div>                
-                    </div>
-                    <div class="col-3" >
-                        <div class="card">
-                            <p>hello my d00d</p>
-                        </div>                   
-                    </div>
-               </div>
-
-               <div class="row">
-                    <div class="col-3" >
-                        <div class="card">
-                            <p>hello my d00d</p>
-                        </div>  
-                    </div>
-                    <div class="col-3" >
-                        <div class="card">
-                            <p>hello my d00d</p>
-                        </div>    
-                    </div>
-                    <div class="col-3" >
-                        <div class="card">
-                            <p>hello my d00d</p>
-                        </div>                
-                    </div>
-                    <div class="col-3" >
-                        <div class="card">
-                            <p>hello my d00d</p>
-                        </div>                   
-                    </div>
-               </div>
-
-               <div class="row">
-                    <div class="col-3" >
-                        <div class="card">
-                            <p>hello my d00d</p>
-                        </div>  
-                    </div>
-                    <div class="col-3" >
-                        <div class="card">
-                            <p>hello my d00d</p>
-                        </div>    
-                    </div>
-                    <div class="col-3" >
-                        <div class="card">
-                            <p>hello my d00d</p>
-                        </div>                
-                    </div>
-                    <div class="col-3" >
-                        <div class="card">
-                            <p>hello my d00d</p>
-                        </div>                   
-                    </div>
-               </div>
-        <div *ngSwitchCase="'Hotels'">
-            These are hotels
-        </div>
-        <div *ngSwitchCase="'Airbnb'">
-            These are Airbnb
-        </div>
-   </div>
-
-   <div *ngSwitchCase="'Hotels'">
-        <div class="row">
-             <div class="col-3">
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>  
-             </div>
-             <div class="col-3">
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>    
-             </div>
-             <div class="col-3">
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>                
-             </div>
-             <div class="col-3">
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>                   
-             </div>
-        </div>
-
-        <div class="row">
-             <div class="col-3" >
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>  
-             </div>
-             <div class="col-3" >
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>    
-             </div>
-             <div class="col-3" >
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>                
-             </div>
-             <div class="col-3" >
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>                   
-             </div>
-        </div>
-
-        <div class="row">
-             <div class="col-3" >
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>  
-             </div>
-             <div class="col-3" >
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>    
-             </div>
-             <div class="col-3" >
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>                
-             </div>
-             <div class="col-3" >
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>                   
-             </div>
-        </div>
-
-        <div class="row">
-             <div class="col-3" >
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>  
-             </div>
-             <div class="col-3" >
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>    
-             </div>
-             <div class="col-3" >
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>                
-             </div>
-             <div class="col-3" >
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>                   
-             </div>
-        </div>
- <div *ngSwitchCase="'Hotels'">
-     These are hotels
- </div>
- <div *ngSwitchCase="'Airbnb'">
-     These are Airbnb
- </div>
-</div>
-
-<div *ngSwitchCase="'Airbnb'">
-        <div class="row">
-             <div class="col-3">
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>  
-             </div>
-             <div class="col-3">
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>    
-             </div>
-             <div class="col-3">
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>                
-             </div>
-             <div class="col-3">
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>                   
-             </div>
-        </div>
-
-        <div class="row">
-             <div class="col-3" >
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>  
-             </div>
-             <div class="col-3" >
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>    
-             </div>
-             <div class="col-3" >
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>                
-             </div>
-             <div class="col-3" >
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>                   
-             </div>
-        </div>
-
-        <div class="row">
-             <div class="col-3" >
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>  
-             </div>
-             <div class="col-3" >
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>    
-             </div>
-             <div class="col-3" >
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>                
-             </div>
-             <div class="col-3" >
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>                   
-             </div>
-        </div>
-
-        <div class="row">
-             <div class="col-3" >
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>  
-             </div>
-             <div class="col-3" >
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>    
-             </div>
-             <div class="col-3" >
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>                
-             </div>
-             <div class="col-3" >
-                 <div class="card">
-                     <p>hello my d00d</p>
-                 </div>                   
-             </div>
-        </div>
- <div *ngSwitchCase="'Hotels'">
-     These are hotels
- </div>
- <div *ngSwitchCase="'Airbnb'">
-     These are Airbnb
- </div>
-</div>
-
-
-
-
-</div> -->

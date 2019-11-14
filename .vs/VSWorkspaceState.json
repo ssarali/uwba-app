@@ -4,8 +4,7 @@
     "\\e2e",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\all-interviews-page",
-    "\\src\\app\\tips"
+    "\\src\\app\\all-interviews-page"
   ],
   "SelectedNode": "\\src\\app\\tips",
   "PreviewInSolutionExplorer": false
