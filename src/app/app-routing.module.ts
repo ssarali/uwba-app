@@ -7,6 +7,7 @@ import { AllInterviewsPageComponent } from './all-interviews-page/all-interviews
 import { TipsComponent } from'./tips/tips.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { JoinUsComponent } from './join-us/join-us.component';
+import { RuiqiLiComponent } from './interviews/ruiqi-li/ruiqi-li.component';
 
 export const appRoutes: Routes = [
   {
@@ -32,6 +33,10 @@ export const appRoutes: Routes = [
   {
     path: 'join-us',
     component: JoinUsComponent
+  },
+  {
+    path: 'ruiqi-li',
+    component: RuiqiLiComponent
   },
   {
     path: '**', component: HomePageComponent

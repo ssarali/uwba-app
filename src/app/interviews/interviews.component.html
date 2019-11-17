@@ -1,17 +1,17 @@
-<div class="row row_spacing">
+<div class="row row-spacing">
     <div class="col-md-4 col-sm-12 border-single" id="main_heading">
       <h1>"{{interviewees[intervieweeId].headerQuote}}"</h1>
       <h3>Follow along {{interviewees[intervieweeId].name}}'s journey on how backpacking became their biggest passion </h3>
     </div>
-    <div class="col-md-8 col-sm-12 p-0 border-single">
-        <img id ="ruiqi_li"src="assets/photos/{{interviewees[intervieweeId].headerPhoto}}">
+    <div class="col-md-8 col-sm-12 p-0">
+        <img id ="header-photo"src="assets/photos/{{interviewees[intervieweeId].headerPhoto}}">
     </div>
 </div>
 
    <router-outlet></router-outlet>
 
   <div class="main_body">
-    <div class="row row_spacing">
+    <div class="row row-spacing">
       <div class="col-1 border-single social-panel-fixed">
         <div class="social-panel-fixed">
           <img src="assets/photos/fb_logo.png" class="social_fonts" id="facebook_icon">
@@ -20,97 +20,66 @@
       </div>
 
       <div class="col-11 border-single" id="main_question_area">
-        <!--What inspired you to start backpacking?-->
-        <div *ngIf="interviewees[intervieweeId].backpackingInspiration">
+
           <p class="question_heading">
-            What inspired you to start backpacking?
+              Where is your favourite backpacking destination and why?
           </p>
           <p class="answer_text">
-            {{interviewees[intervieweeId].backpackingInspiration}}
+            {{interviewees[intervieweeId].favouriteDestination}}
           </p>
-        </div>
-        <img src="assets/photos/{{interviewees[intervieweeId].longPhoto}}" class="full_sized_image">
-        <blockquote class="generic-blockquote">
-          {{interviewees[intervieweeId].secondQuote}}
-        </blockquote>
-        <div class="image_gallery">
-          <img src="assets/photos/{{interviewees[intervieweeId].img1}}" class="img-gallery_individual">
-          <img src="assets/photos/{{interviewees[intervieweeId].img2}}" class="img-gallery_individual">
-          <img src="assets/photos/{{interviewees[intervieweeId].img3}}" class="img-gallery_individual">
-          <img src="assets/photos/{{interviewees[intervieweeId].img4}}" class="img-gallery_individual">
-        </div>
-        <!--What does a typical day look like?-->
-        <div *ngIf="interviewees[intervieweeId].typicalDay">
+          
+        <img src="assets/photos/{{interviewees[intervieweeId].widePhoto}}" class="wide-photo">
+
           <p class="question_heading">
-            What does a typical day when you’re backpacking look like?
+              What country is next on your bucket list? 
           </p>
-          <div class="row">
+          <div class="row answer_text">
             <div class="col-6">
-              {{interviewees[intervieweeId].typicalDay}}
+              {{interviewees[intervieweeId].nextCountry}}
             </div>
             <div class="col-6">
-              <img src="assets/photos/{{interviewees[intervieweeId].typicalDayPhoto}}" style=" width: 100%">
+              <img src="assets/photos/{{interviewees[intervieweeId].img1}}" style = "width: 100%; border-radius:1">
             </div>
           </div>
-        </div>
-        <blockquote class="generic-blockquote">
-          {{interviewees[intervieweeId].thirdQuote}}
-        </blockquote>
-        <!--What’s something interesting that you bring on your trips?-->
-        <div *ngIf="interviewees[intervieweeId].interestingBringOnTrip">
+  
+          <!-- Question 3: Was there anything you wish you knew prior to backpacking? -->
           <p class="question_heading">
-            What’s something interesting that you bring on your trips?
+              Was there anything you wish you knew prior to backpacking?
           </p>
           <p class="answer_text">
-            {{interviewees[intervieweeId].interestingBringOnTrip}}
+            {{interviewees[intervieweeId].knewPrior}}
           </p>
-        </div>
-        <!--What are the most common challenges for students to go backpacking?-->
-        <div *ngIf="interviewees[intervieweeId].challenge1">
+          <div class="image_gallery">
+            <img src="assets/photos/{{interviewees[intervieweeId].img2}}" class="img-gallery_individual">
+            <img src="assets/photos/{{interviewees[intervieweeId].img5}}" class="img-gallery_individual">
+            <img src="assets/photos/{{interviewees[intervieweeId].img4}}" class="img-gallery_individual">
+            <img src="assets/photos/{{interviewees[intervieweeId].img6}}" class="img-gallery_individual">
+          </div>
+  
+          <br>
+          <br>
+          
           <p class="question_heading">
-            What are the most common
-            challenges for students to go backpacking?
+              What did you expect on your trip(s)? 
           </p>
           <p class="answer_text">
-            "{{interviewees[intervieweeId].challenge1}}"
+            {{interviewees[intervieweeId].tripExpectations}}
           </p>
-          <p class="answer_text">
-            "{{interviewees[intervieweeId].challenge2}}"
-          </p>
-          <p class="answer_text">
-            "{{interviewees[intervieweeId].challenge3}}"
-          </p>
-          <p class="answer_text">
-            "{{interviewees[intervieweeId].challenge4}}"
-          </p>
-          <p class="answer_text">
-            "{{interviewees[intervieweeId].challenge5}}"
-          </p>
-        </div>
-        <blockquote class="generic-blockquote">
-          "{{interviewees[intervieweeId].fourthQuote}}"
-        </blockquote>
-        <!--Any advice for backpacking newbies?-->
-        <div *ngIf="interviewees[intervieweeId].advice">
+
+          <div class="row"> 
+            <div class="col-12" style="display: flex; justify-content: center;">
+                <blockquote class="generic-blockquote">
+                    {{interviewees[intervieweeId].firstQuote}}
+                </blockquote>      
+            </div>
+          </div>
+        
           <p class="question_heading">
-            Any other advice for backpacking newbies?
+              If you recommended backpacking to a friend, what would your advice be? 
           </p>
           <p class="answer_text">
-            {{interviewees[intervieweeId].advice}}
+            {{interviewees[intervieweeId].recommendations}}
           </p>
-        </div>
-        <!--Anything you want to recommend, promote or plug?-->
-        <div *ngIf="interviewees[intervieweeId].recommend1">
-          <p class="question_heading">
-            Anything you want to recommend, promote or plug?
-          </p>
-          <p class="answer_text">
-            {{interviewees[intervieweeId].recommend1}}
-          </p>
-          <p>
-            {{interviewees[intervieweeId].recommend2}}
-          </p>
-        </div>
       </div>
      </div>
-  </div>
+  </div> 

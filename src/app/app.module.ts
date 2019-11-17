@@ -14,6 +14,7 @@ import { AllInterviewsPageComponent } from './all-interviews-page/all-interviews
 import { TipsComponent } from './tips/tips.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { JoinUsComponent } from './join-us/join-us.component';
+import { RuiqiLiComponent } from './interviews/ruiqi-li/ruiqi-li.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { JoinUsComponent } from './join-us/join-us.component';
     AllInterviewsPageComponent,
     TipsComponent,
     AboutUsComponent,
-    JoinUsComponent
+    JoinUsComponent,
+    RuiqiLiComponent
   ],
   imports: [
     BrowserModule,
