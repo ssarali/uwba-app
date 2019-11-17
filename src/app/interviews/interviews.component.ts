@@ -18,6 +18,7 @@ export class InterviewsComponent implements OnInit {
   public intervieweeId: string;
 
   public joanna: AnswersModel;
+  public vetaParco: AnswersModel;
 
   ngOnInit(): void {
     this.intervieweeId = this.route.snapshot.params.id;
@@ -64,6 +65,32 @@ export class InterviewsComponent implements OnInit {
         //    thirdQuote: "hksjdf",
         //    fourthQuote: "hksjdf",
       },
+      this.vetaParco = {
+        name: "Veta Parco",
+        headerQuote: "I was expecting to have fun, but not nearly as much as I did during my adventures.",
+        headerPhoto: "vetaParco/vetaParcoHeader.jpg",
+        widePhoto: "vetaParco/longPhoto.jpg",
+        favouriteDestination: "Vietnam! The backpacking culture there is what makes it so special. They have a company called ¨Vietnam Backpackers hostel¨ that you can " +
+          "find all throughout the country.Every time you go you are bound to see the same people from the last destination! It is the perfect environment to have fun, make friends, and they offer awesome tours. " + 
+          "Philippines was my favourite destination.This country is more out of ones comfort zone as there are not many travellers – it makes it very unique and authentic! I enjoyed Philippines because the people " +
+          "were so lovely and honest, no one ever tries to scam you! Which is rare in Asia.The landscape is absolutely stunning and it is a very relaxed place compared to Vietnam being very social and full of parties.",
+        nextCountry: "Next on my bucket list is Europe! I plan to go on an exchange for one year exploring the continent.",
+        knewPrior: "I wish I knew not to cram as many things as possible into one trip. Although one month sounds like a long time, it can get very exhausting very quick if you over book yourself. " +
+          "I felt this way when I travelled to Thailand; later on in my travels I made a point to make sure I was in one place for a minimum of 3 nights to properly enjoy it, and not over work myself.",
+        tripExpectations: "I expected everything that it was! I honestly was not too shocked when I first arrived. You really have to keep an open mind and trust your gut. Although yes, it is dirtier than Canada and a " +
+          "lot of places don’t have toilets or toilet paper, it all comes with the experience! And makes the trip that much more memorable. ",
+        recommendations: "I recommend everyone to go on a backpacking trip! You learn so much about yourself and the world. I think seeing life through other people´s eyes really helps you reflect on your own life, and " +
+          "make you feel grateful for things we often take for granted in North America.My advice would be to not plan too far ahead.Figure out a specific route you want to follow, do your research, but do not book things " +
+          "until 1 day or so before.This allows you to be flexible; stay in a place longer if you love it, change your route if you meet awesome friends to continue travelling with, or leave ASAP without losing money. " +
+          "I know people get worried when things aren’t planned, but it is so easy to find accommodation the day before – you will not be stuck on the streets! Go with the flow and embrace every second of it. ",
+        img1: "vetaParco/filla.jpg",
+        img2: "vetaParco/img2.jpg",
+        img3: "vetaParco/download.jpg",
+        img4: "vetaParco/fill.jpg",
+        img5: "vetaParco/img1.jpg",
+        img6: "vetaParco/img3.jpg",
+        firstQuote: "Every time you go you are bound to see the same people from the last destination!",
+      }
     ];
   }
 }
