@@ -90,6 +90,32 @@ export class InterviewsComponent implements OnInit {
         img5: "vetaParco/img1.jpg",
         img6: "vetaParco/img3.jpg",
         firstQuote: "Every time you go you are bound to see the same people from the last destination!",
+      },
+      this.aliSaeed = {
+           name: "Ali Saeed",
+           headerQuote: "Do it once and you’ll be hooked like the rest of us.",
+           headerPhoto: "aliSaeed/aliHeader.JPG",
+           widePhoto: "aliSaeed/aliWidePhoto.JPG",
+           favouriteDestination: "I have only been backpacking through Turkey and the United States (West Coast) so " +
+           "I don’t have a lot to compare but my trip through Turkey was definitely my favourite. Mainly because I’m " +
+           "a history nerd and Turkey simply has so much to offer in that regards. ",
+           nextCountry: "It would be China. I was actually planning to do this trip in December of this year but I have " +
+           "postponed it to April next year. I decided to do a road trip on the East coast from New york to Miami instead, " +
+           "for my Christmas break. " ,
+           knewPrior: "Underpacking is not as big of a problem as overpacking but it is best to make sure you have " +
+           "everything you’ll need. Especially keep in mind the plugs might be different depending on where you go so make " +
+           "sure you have that Universal Travel Adapter.",
+           tripExpectations: "Explore, have fun and meet a lot of cool people from all around the world.",
+           recommendations: "If this is your first time, it might be scary but it is definitely a life changing experience. " + 
+           "You learn so much about yourself as well about the culture and customs of the places you visit. Do it once and " +
+           "you’ll be hooked like the rest of us.",
+           img1: "aliSaeed/aliImg1.JPG",
+           img2: "aliSaeed/aliImg2.JPG",
+           img3: "aliSaeed/aliImg3.JPG",
+           firstQuote: " You learn so much about yourself as well about the culture and customs of the places you visit.",
+        //    secondQuote: "hksjdf",
+        //    thirdQuote: "hksjdf",
+        //    fourthQuote: "hksjdf",
       }
     ];
   }
