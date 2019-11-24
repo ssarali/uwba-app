@@ -4,8 +4,9 @@
     "\\e2e",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\all-interviews-page"
+    "\\src\\app\\all-interviews-page",
+    "\\src\\app\\home-page"
   ],
-  "SelectedNode": "\\src\\app\\tips",
+  "SelectedNode": "\\src\\app\\home-page",
   "PreviewInSolutionExplorer": false
 }
