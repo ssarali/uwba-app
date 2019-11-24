@@ -167,11 +167,125 @@ export class TipsComponent implements OnInit {
             "websiteUrl": "https://www.ceetiz.com/"
           },
           {
-            "imageUrl": "assets/photos/tips/tourism/ceetiz.jpg",
-            "websiteUrl": "https://www.airbnb.ca/"
+            "imageUrl": "assets/photos/tips/tourism/citydiscovery.png",
+            "websiteUrl": "https://www.city-discovery.com/"
           }
        ],
-     ];
+       [
+          {
+            "imageUrl": "assets/photos/tips/tourism/civitatis.jpg",
+            "websiteUrl": " https://www.civitatis.com/en/"
+          },
+          {
+            "imageUrl": "assets/photos/tips/tourism/cookiesound.png",
+            "websiteUrl": "http://www.cookiesound.com/"
+          },
+          {
+            "imageUrl": "assets/photos/tips/tourism/eoasia.png",
+            "websiteUrl": "https://www.eoasia.com/"
+          },
+          {
+            "imageUrl": "assets/photos/tips/tourism/expedia.jpg",
+            "websiteUrl": "https://www.expedia.ca/"
+          }
+     ],
+     [
+        {
+          "imageUrl": "assets/photos/tips/tourism/experienceoz.png",
+          "websiteUrl": "https://www.experienceoz.com.au/en"
+        },
+        {
+          "imageUrl": "assets/photos/tips/tourism/getyourguide.png",
+          "websiteUrl": "https://www.getyourguide.com/"
+        },
+        {
+          "imageUrl": "assets/photos/tips/tourism/voyagin.png",
+          "websiteUrl": "https://www.govoyagin.com/"
+        },
+        {
+          "imageUrl": "assets/photos/tips/tourism/headout.png",
+          "websiteUrl": "https://www.headout.com/"
+        }
+   ],
+   [
+       {
+        "imageUrl": "assets/photos/tips/tourism/headout.png",
+        "websiteUrl": "https://www.headout.com/"
+        },
+        {
+          "imageUrl": "assets/photos/tips/tourism/isango.png",
+          "websiteUrl": "https://www.isango.com/"
+        },
+        {
+          "imageUrl": "assets/photos/tips/tourism/kkday.png",
+          "websiteUrl": "https://www.kkday.com/en"
+        },
+        {
+          "imageUrl": "assets/photos/tips/tourism/leezair.png",
+          "websiteUrl": "https://www.leezair.com/"
+        }
+   ],
+   [
+    {
+     "imageUrl": "assets/photos/tips/tourism/likealocalguide.png",
+     "websiteUrl": "https://www.likealocalguide.com/"
+     },
+     {
+       "imageUrl": "assets/photos/tips/tourism/liveunbound.JPG",
+       "websiteUrl": "https://weliveunbound.com/epicmoments"
+     },
+     {
+       "imageUrl": "assets/photos/tips/tourism/musement.png",
+       "websiteUrl": "https://www.musement.com/us/"
+     },
+     {
+       "imageUrl": "assets/photos/tips/tourism/onthegrid.jpg",
+       "websiteUrl": "https://onthegrid.city/"
+     }
+  ],
+  [
+    {
+     "imageUrl": "assets/photos/tips/tourism/peek.jpg",
+     "websiteUrl": "https://www.peek.com/"
+     },
+     {
+       "imageUrl": "assets/photos/tips/tourism/projectexpedition.png",
+       "websiteUrl": "https://www.projectexpedition.com/"
+     },
+     {
+       "imageUrl": "assets/photos/tips/tourism/thrillophilia.png",
+       "websiteUrl": "https://www.thrillophilia.com/"
+     },
+     {
+       "imageUrl": "assets/photos/tips/tourism/tiqets.jpg",
+       "websiteUrl": "https://www.tiqets.com/en/"
+     }
+  ],
+  [
+    {
+     "imageUrl": "assets/photos/tips/tourism/toursbylocal.jpg",
+     "websiteUrl": "https://www.toursbylocals.com/"
+     },
+     {
+       "imageUrl": "assets/photos/tips/tourism/traveloregon.jpg",
+       "websiteUrl": "https://traveloregon.com/"
+     },
+     {
+       "imageUrl": "assets/photos/tips/tourism/veltra.png",
+       "websiteUrl": "https://www.veltra.com/en/"
+     },
+     {
+       "imageUrl": "assets/photos/tips/tourism/viator.png",
+       "websiteUrl": "https://www.viator.com/"
+     }
+  ],
+  [
+    {
+     "imageUrl": "assets/photos/tips/tourism/withlocals.JPG",
+     "websiteUrl": "https://www.withlocals.com/"
+     }
+  ]
+];
 
 
 
