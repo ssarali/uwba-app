@@ -20,6 +20,8 @@ export class InterviewsComponent implements OnInit {
   public joanna: AnswersModel;
   public vetaParco: AnswersModel;
   public bryanChan: AnswersModel;
+  public aliSaeed: AnswersModel;
+  public joseMontoya: AnswersModel;
 
   ngOnInit(): void {
     this.intervieweeId = this.route.snapshot.params.id;
@@ -93,27 +95,58 @@ export class InterviewsComponent implements OnInit {
         firstQuote: "Every time you go you are bound to see the same people from the last destination!",
       },
       this.aliSaeed = {
-           name: "Ali Saeed",
-           headerQuote: "Do it once and you’ll be hooked like the rest of us.",
-           headerPhoto: "aliSaeed/aliHeader.JPG",
-           widePhoto: "aliSaeed/aliWidePhoto.JPG",
-           favouriteDestination: "I have only been backpacking through Turkey and the United States (West Coast) so " +
-           "I don’t have a lot to compare but my trip through Turkey was definitely my favourite. Mainly because I’m " +
-           "a history nerd and Turkey simply has so much to offer in that regards. ",
-           nextCountry: "It would be China. I was actually planning to do this trip in December of this year but I have " +
-           "postponed it to April next year. I decided to do a road trip on the East coast from New york to Miami instead, " +
-           "for my Christmas break. " ,
-           knewPrior: "Underpacking is not as big of a problem as overpacking but it is best to make sure you have " +
-           "everything you’ll need. Especially keep in mind the plugs might be different depending on where you go so make " +
-           "sure you have that Universal Travel Adapter.",
-           tripExpectations: "Explore, have fun and meet a lot of cool people from all around the world.",
-           recommendations: "If this is your first time, it might be scary but it is definitely a life changing experience. " + 
-           "You learn so much about yourself as well about the culture and customs of the places you visit. Do it once and " +
-           "you’ll be hooked like the rest of us.",
-           img1: "aliSaeed/aliImg1.JPG",
-           img2: "aliSaeed/aliImg2.JPG",
-           img3: "aliSaeed/aliImg3.JPG",
-           firstQuote: " You learn so much about yourself as well about the culture and customs of the places you visit.",
+        name: "Ali Saeed",
+        headerQuote: "Do it once and you’ll be hooked like the rest of us.",
+        headerPhoto: "aliSaeed/aliHeader.JPG",
+        widePhoto: "aliSaeed/aliWidePhoto.JPG",
+        favouriteDestination: "I have only been backpacking through Turkey and the United States (West Coast) so " +
+          "I don’t have a lot to compare but my trip through Turkey was definitely my favourite. Mainly because I’m " +
+          "a history nerd and Turkey simply has so much to offer in that regards. ",
+        nextCountry: "It would be China. I was actually planning to do this trip in December of this year but I have " +
+          "postponed it to April next year. I decided to do a road trip on the East coast from New york to Miami instead, " +
+          "for my Christmas break. ",
+        knewPrior: "Underpacking is not as big of a problem as overpacking but it is best to make sure you have " +
+          "everything you’ll need. Especially keep in mind the plugs might be different depending on where you go so make " +
+          "sure you have that Universal Travel Adapter.",
+        tripExpectations: "Explore, have fun and meet a lot of cool people from all around the world.",
+        recommendations: "If this is your first time, it might be scary but it is definitely a life changing experience. " +
+          "You learn so much about yourself as well about the culture and customs of the places you visit. Do it once and " +
+          "you’ll be hooked like the rest of us.",
+        img1: "aliSaeed/aliImg1.JPG",
+        img2: "aliSaeed/aliImg2.JPG",
+        img3: "aliSaeed/aliImg3.JPG",
+        img4: "",
+        img5: "",
+        img6: "",
+        firstQuote: " You learn so much about yourself as well about the culture and customs of the places you visit."
+      },
+      this.joseMontoya = {
+        name: "Jose Motoya",
+        headerQuote: "To get to know myself, what I like and dislike, how I react to sudden change, how well and fast I can adapt to a foreign environment",
+        headerPhoto: "joseMontoya/joseMontoya.jpg",
+        widePhoto: "joseMontoya/longphoto.png",
+        favouriteDestination: "Continental Europe! Because is considerably cheap to travel around (especially Eastern Europe), and practically " +
+          "every city has a unique vibe to it.I particularly loved Berlin, Budapest and Prague(in no particular order).And the food! From sauerkraut " +
+          "perogies in Poland to wild boar goulash in the Czech Republic, the food is just amazing. ",
+        nextCountry: "I would like to finally go to some country in Asia. Taiwan, China or Japan are some of the names that come to my mind. Or India. " +
+          "Or Kazakhstan.Or anywhere on Asia(hehe).",
+        knewPrior: "That I do not need as many bags as I thought I did. Traveling across Europe is all fun and games until you are running up and down the " +
+          "stairs in the crowded Paris subway system with two large bags and a backpack, rushing to make it to the airport.And I had to pay extra for them to fly with me! " +
+          "So, I’d definitely say that traveling as light as possible is both cheaper and more comfortable(the word “backpacking” should’ve given me a hint.Plus, you probably " +
+          "won’t need those four extra pairs of shoes, anyway).",
+        tripExpectations: "I expected it to be an enjoyable learning experience. To face challenges and difficulties that will help me grow as an individual and as a global citizen. " +
+          "To meet incredible people from different backgrounds with different perspectives about life and society.To get to know myself, what I like and dislike, how I react to sudden change, " +
+          "how well and fast I can adapt to a foreign environment.To be mind - blown by the different flavours and sights I may encounter… And it exceeded my expectations in a million ways.",
+        recommendations: "If you are backpacking for a long time (more than a month), you may appreciate tagging someone along. Whether it is an old friend from back home, or a new friend you meet " +
+          "during your travels, it can definitely help with the homesickness.And you can split the costs! Last summer I traveled across many different countries by myself, but at a certain point, I " +
+          "definitely felt like I could use a travel buddy. (Don’t take me wrong: some traveling on your own is great, for sure, but sometimes I just needed someone to relive the experiences I had gone through with).",
+        img1: "joseMontoya/market.png",
+        img2: "joseMontoya/harrypotta.jpg",
+        img3: "joseMontoya/cowmoo.jpg",
+        img4: "joseMontoya/clowngirl.jpg",
+        img5: "joseMontoya/rome.jpg",
+        img6: "joseMontoya/food.jpg",
+        firstQuote: " To face challenges and difficulties that will help me grow as an individual and as a global citizen.",
         //    secondQuote: "hksjdf",
         //    thirdQuote: "hksjdf",
         //    fourthQuote: "hksjdf",
