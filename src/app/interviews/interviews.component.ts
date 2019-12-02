@@ -97,8 +97,8 @@ export class InterviewsComponent implements OnInit {
       this.aliSaeed = {
         name: "Ali Saeed",
         headerQuote: "Do it once and you’ll be hooked like the rest of us.",
-        headerPhoto: "aliSaeed/aliHeader.JPG",
-        widePhoto: "aliSaeed/aliWidePhoto.JPG",
+        headerPhoto: "aliSaeed/header.png",
+        widePhoto: "aliSaeed/longer.jpg",
         favouriteDestination: "I have only been backpacking through Turkey and the United States (West Coast) so " +
           "I don’t have a lot to compare but my trip through Turkey was definitely my favourite. Mainly because I’m " +
           "a history nerd and Turkey simply has so much to offer in that regards. ",
@@ -112,19 +112,19 @@ export class InterviewsComponent implements OnInit {
         recommendations: "If this is your first time, it might be scary but it is definitely a life changing experience. " +
           "You learn so much about yourself as well about the culture and customs of the places you visit. Do it once and " +
           "you’ll be hooked like the rest of us.",
-        img1: "aliSaeed/aliImg1.JPG",
-        img2: "aliSaeed/aliImg2.JPG",
-        img3: "aliSaeed/aliImg3.JPG",
-        img4: "",
-        img5: "",
-        img6: "",
+        img1: "aliSaeed/wider4.jpg",
+        img2: "aliSaeed/long.png",
+        img3: "aliSaeed/long3.jpg",
+        img4: "aliSaeed/img2.jpg",
+        img5: "aliSaeed/img.png",
+        img6: "aliSaeed/wider.jpg",
         firstQuote: " You learn so much about yourself as well about the culture and customs of the places you visit."
       },
       this.joseMontoya = {
         name: "Jose Motoya",
         headerQuote: "To get to know myself, what I like and dislike, how I react to sudden change, how well and fast I can adapt to a foreign environment",
-        headerPhoto: "joseMontoya/joseMontoya.jpg",
-        widePhoto: "joseMontoya/longphoto.png",
+        headerPhoto: "joseMontoya/rome.jpg",
+        widePhoto: "joseMontoya/longPhoto.png",
         favouriteDestination: "Continental Europe! Because is considerably cheap to travel around (especially Eastern Europe), and practically " +
           "every city has a unique vibe to it.I particularly loved Berlin, Budapest and Prague(in no particular order).And the food! From sauerkraut " +
           "perogies in Poland to wild boar goulash in the Czech Republic, the food is just amazing. ",
@@ -144,7 +144,7 @@ export class InterviewsComponent implements OnInit {
         img2: "joseMontoya/harrypotta.jpg",
         img3: "joseMontoya/cowmoo.jpg",
         img4: "joseMontoya/clowngirl.jpg",
-        img5: "joseMontoya/rome.jpg",
+        img5: "joseMontoya/joseMontoya.jpg",
         img6: "joseMontoya/food.jpg",
         firstQuote: " To face challenges and difficulties that will help me grow as an individual and as a global citizen.",
         //    secondQuote: "hksjdf",

@@ -7,6 +7,15 @@ body {
   overflow-x: hidden !important;
 }
 
+a {
+  color: #000000;
+}
+
+a:hover {
+  color: #82334F;
+  text-decoration: none;
+}
+
 @media screen and (min-width: 0px) and (max-width: 811px) {
   .show-mobile {
     display: block;
