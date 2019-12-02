@@ -17,11 +17,11 @@ export class InterviewsComponent implements OnInit {
   public interviewees: AnswersModel[];
   public intervieweeId: string;
 
-  public joanna: AnswersModel;
+  public joanna: AnswersModel; 
   public vetaParco: AnswersModel;
-  public bryanChan: AnswersModel;
   public aliSaeed: AnswersModel;
   public joseMontoya: AnswersModel;
+  public bryanChan: AnswersModel;
 
   ngOnInit(): void {
     this.intervieweeId = this.route.snapshot.params.id;
@@ -154,8 +154,8 @@ export class InterviewsComponent implements OnInit {
       this.bryanChan = {
         name: "Bryan Chan",
         headerQuote: "Most of the things I wished I knew prior to backpacking could not be taught because it’s one of those things you just need to go through before you know. ",
-        headerPhoto: "bryanChan/bryanChanHeader.jpg",
-        widePhoto: "bryanChan/longPhoto.jpg",
+        headerPhoto: "bryanChan/header.jpg",
+        widePhoto: "bryanChan/wide1.jpg",
         favouriteDestination: "Of all the countries, I’ve traveled to – there is never 1 favourite destination as all places offer such different experiences and it is up to the individual to decide. Personally, " +
           "I love mountains and hiking / nature with a bit of countryside. That being said, my favourite country in Europe would have to be Switzerland because of the Swiss Alps. Not only is it breathtaking via the " +
           "Golden Train and its weather, the atmosphere is very peaceful, and you get to see what life is like in the mountains. ",
@@ -169,12 +169,12 @@ export class InterviewsComponent implements OnInit {
         recommendations: "Too much to say! Looking back now, all I can really say is go with an open mind, and dive into it without being self-conscious! I still remember my first day of backpacking – I was in Malaga, Spain. " +
           "I felt incredibly self-conscious as the only Asian in a completely Caucasian environment and not speaking the language either, especially coming from an environment like Waterloo. I told myself to sleep it off (which " + 
           "I did) and the next day, I just continued my journey with a new mindset and that was to give no ****s! ",
-        img1: "bryanChan/filla.jpg",
-        img2: "bryanChan/img2.jpg",
-        img3: "bryanChan/download.jpg",
-        img4: "bryanChan/fill.jpg",
-        img5: "bryanChan/img1.jpg",
-        img6: "bryanChan/img3.jpg",
+        img1: "bryanChan/normal.jpg",
+        img2: "bryanChan/long1.jpg",
+        img3: "bryanChan/wide1.jpg",
+        img4: "bryanChan/long2.jpg",
+        img5: "bryanChan/wide2.jpg",
+        img6: "bryanChan/patagonia.jpg",
         firstQuote: "I wished I knew how tough yet rewarding backpacking can be. For example, having to learn Spanish on a whim when I backpacked through Patagonia was a new experience, or trying to signal a taxi down in Zambia in the middle of nowhere. ",
       },
     ];
