@@ -12,38 +12,59 @@ export class TipsComponent implements OnInit {
   ngOnInit() {
   }
 
+  showDiscount = true;
   showAccommodation = false;
   showFlight = false;
   showTourism = false;
-  showVisa = false;
 
   showList(id:any){
     if (id == 0){
+        $('#first').toggleClass("clicked-button");
+        $('#second').removeClass("clicked-button");
+        $('#third').removeClass("clicked-button");
+        $('#fourth').removeClass("clicked-button");
+        this.showDiscount = true;
+        this.showAccommodation = false;
+        this.showFlight = false;
+        this.showTourism = false;
+    }
+    else if (id == 1){
+        $('#first').removeClass("clicked-button");
+        $('#second').toggleClass("clicked-button");
+        $('#third').removeClass("clicked-button");
+        $('#fourth').removeClass("clicked-button");
+        this.showDiscount = false;
         this.showAccommodation = true;
         this.showFlight = false;
         this.showTourism = false;
-        this.showVisa = false;
     }
-    else if (id == 1){ 
+    else if (id == 2){ 
+        $('#first').removeClass("clicked-button");
+        $('#second').removeClass("clicked-button");
+        $('#third').toggleClass("clicked-button");
+        $('#fourth').removeClass("clicked-button");
+        this.showDiscount = false;
         this.showAccommodation = false;
         this.showFlight = true;
         this.showTourism = false;
-        this.showVisa = false;
     }
-    else if (id == 2){
+    else if (id == 3){
+        $('#first').removeClass("clicked-button");
+        $('#second').removeClass("clicked-button");
+        $('#third').removeClass("clicked-button");
+        $('#fourth').toggleClass("clicked-button");
+        this.showDiscount = false;
         this.showAccommodation = false;
         this.showFlight = false;
         this.showTourism = true;
-        this.showVisa = false;
-    }
-    else if (id == 3){
-        this.showAccommodation = false;
-        this.showFlight = false;
-        this.showTourism = false;
-        this.showVisa = true;
     }
   } 
 
+  discountList = [
+    {
+      "imageUrl": "assets/photos/tips/discounts/christophers.jpg",
+    }
+  ]
 
   accommodationList = [
       [
@@ -52,7 +73,7 @@ export class TipsComponent implements OnInit {
             "websiteUrl": "https://www.agoda.com/en-ca/"
           },
           {
-            "imageUrl": "assets/photos/tips/accommodations/airbnb.png",
+            "imageUrl": "assets/photos/tips/accommodations/airbnb.jpg",
             "websiteUrl": "https://www.airbnb.ca/"
           },
           {
@@ -159,7 +180,7 @@ export class TipsComponent implements OnInit {
             "websiteUrl": "https://www.adrenaline-hunter.com/en-GB/"
           },
           {
-            "imageUrl": "assets/photos/tips/accommodations/airbnb.png",
+            "imageUrl": "assets/photos/tips/accommodations/airbnb.jpg",
             "websiteUrl": "https://www.airbnb.ca/"
           },
           {
@@ -208,9 +229,9 @@ export class TipsComponent implements OnInit {
         }
    ],
    [
-       {
-        "imageUrl": "assets/photos/tips/tourism/headout.png",
-        "websiteUrl": "https://www.headout.com/"
+        {
+          "imageUrl": "assets/photos/tips/tourism/likealocalguide.png",
+          "websiteUrl": "https://www.likealocalguide.com/"
         },
         {
           "imageUrl": "assets/photos/tips/tourism/isango.png",
@@ -226,9 +247,9 @@ export class TipsComponent implements OnInit {
         }
    ],
    [
-    {
-     "imageUrl": "assets/photos/tips/tourism/likealocalguide.png",
-     "websiteUrl": "https://www.likealocalguide.com/"
+     {
+      "imageUrl": "assets/photos/tips/tourism/peek.jpg",
+      "websiteUrl": "https://www.peek.com/"
      },
      {
        "imageUrl": "assets/photos/tips/tourism/liveunbound.JPG",
@@ -244,9 +265,9 @@ export class TipsComponent implements OnInit {
      }
   ],
   [
-    {
-     "imageUrl": "assets/photos/tips/tourism/peek.jpg",
-     "websiteUrl": "https://www.peek.com/"
+     {
+      "imageUrl": "assets/photos/tips/tourism/toursbylocal.jpg",
+      "websiteUrl": "https://www.toursbylocals.com/"
      },
      {
        "imageUrl": "assets/photos/tips/tourism/projectexpedition.png",
@@ -262,9 +283,9 @@ export class TipsComponent implements OnInit {
      }
   ],
   [
-    {
-     "imageUrl": "assets/photos/tips/tourism/toursbylocal.jpg",
-     "websiteUrl": "https://www.toursbylocals.com/"
+     {
+      "imageUrl": "assets/photos/tips/tourism/withlocals.JPG",
+      "websiteUrl": "https://www.withlocals.com/"
      },
      {
        "imageUrl": "assets/photos/tips/tourism/traveloregon.jpg",
@@ -279,14 +300,234 @@ export class TipsComponent implements OnInit {
        "websiteUrl": "https://www.viator.com/"
      }
   ],
-  [
-    {
-     "imageUrl": "assets/photos/tips/tourism/withlocals.JPG",
-     "websiteUrl": "https://www.withlocals.com/"
-     }
-  ]
 ];
 
-
-
+flightList = [
+  [
+      {
+        "imageUrl": "assets/photos/tips/flights/airasia.png",
+        "websiteUrl": "https://www.airasia.com/en/gb"
+      },
+      {
+        "imageUrl": "assets/photos/tips/flights/aircanada.png",
+        "websiteUrl": "https://www.aircanada.com/ca/en/aco/home.html"
+      },
+      {
+        "imageUrl": "assets/photos/tips/flights/airlineticketcenter.png",
+        "websiteUrl": "https://airlineticketcentre.ca/"
+      },
+      {
+        "imageUrl": "assets/photos/tips/flights/airtickets.png",
+        "websiteUrl": "https://www.airtickets.com/"
+      },
+  ],
+  [
+      {
+        "imageUrl": "assets/photos/tips/flights/amatravel.png",
+        "websiteUrl": "https://www.amatravel.ca/flights"
+      },
+      {
+        "imageUrl": "assets/photos/tips/flights/americanairlines.JPG",
+        "websiteUrl": "https://www.aa.com/homePage.do"
+      },
+      {
+        "imageUrl": "assets/photos/tips/flights/ana.png",
+        "websiteUrl": "https://www.ana.co.jp/en/ca/"
+      },
+      {
+        "imageUrl": "assets/photos/tips/flights/cheapair.png",
+        "websiteUrl": "https://www.cheapair.com/"
+      },
+  ],
+  [
+      {
+        "imageUrl": "assets/photos/tips/flights/cheapflights.png",
+        "websiteUrl": " https://www.cheapflights.ca/"
+      },
+      {
+        "imageUrl": "assets/photos/tips/flights/cheapair.jpg",
+        "websiteUrl": "https://www.cheapair.com/"
+      },
+      {
+        "imageUrl": "assets/photos/tips/flights/delta.jpg",
+        "websiteUrl": "https://www.delta.com/ca/en"
+      },
+      {
+        "imageUrl": "assets/photos/tips/flights/emirates.png",
+        "websiteUrl": "https://www.emirates.com/ca/english/"
+      },
+  ],
+  [
+      {
+        "imageUrl": "assets/photos/tips/flights/evaair.jpg",
+        "websiteUrl": "https://booking.evaair.com/flyeva/eva/b2c/booking-online.aspx"
+      },
+      {
+        "imageUrl": "assets/photos/tips/tourism/expedia.jpg",
+        "websiteUrl": "https://www.expedia.ca/"
+      },
+      {
+        "imageUrl": "assets/photos/tips/flights/farecompare.png",
+        "websiteUrl": "https://www.farecompare.com/"
+      },
+      {
+        "imageUrl": "assets/photos/tips/flights/flightnetwork.jpg",
+        "websiteUrl": "https://www.flightnetwork.com/"
+      },
+  ],
+  [
+      {
+        "imageUrl": "assets/photos/tips/flights/flightcentre.png",
+        "websiteUrl": "https://www.flightcentre.ca/"
+      },
+      {
+        "imageUrl": "assets/photos/tips/flights/flighthub.jpg",
+        "websiteUrl": " https://www.flighthub.com/"
+      },
+      {
+        "imageUrl": "assets/photos/tips/flights/flightaware.png",
+        "websiteUrl": "https://flightaware.com/"
+      },
+      {
+        "imageUrl": "assets/photos/tips/flights/frontier.png",
+        "websiteUrl": "https://www.flyfrontier.com/"
+      },
+  ],
+  [
+      {
+        "imageUrl": "assets/photos/tips/flights/goibibo.png",
+        "websiteUrl": "https://www.goibibo.com/"
+      },
+      {
+        "imageUrl": "assets/photos/tips/flights/hawaiian.png",
+        "websiteUrl": "https://www.hawaiianairlines.com/"
+      },
+      {
+        "imageUrl": "assets/photos/tips/flights/hipmunk.png",
+        "websiteUrl": "https://www.hipmunk.com/"
+      },
+      {
+        "imageUrl": "assets/photos/tips/flights/hotwire.png",
+        "websiteUrl": "https://www.hotwire.com/flights/"
+      }
+  ],
+  [
+    {
+      "imageUrl": "assets/photos/tips/flights/indigo.jpg",
+      "websiteUrl": "https://www.goindigo.in/"
+    },
+    {
+      "imageUrl": "assets/photos/tips/flights/jetradar.png",
+      "websiteUrl": "https://www.jetradar.com/"
+    },
+    {
+      "imageUrl": "assets/photos/tips/accommodations/kayak.png",
+      "websiteUrl": "https://www.ca.kayak.com/hotels"
+    },
+    {
+      "imageUrl": "assets/photos/tips/flights/kiwi.png",
+      "websiteUrl": "https://www.kiwi.com/ca/"
+    }
+  ],
+  [
+    {
+      "imageUrl": "assets/photos/tips/flights/KLM.png",
+      "websiteUrl": "https://www.klm.com/home/us/en"
+    },
+    {
+      "imageUrl": "assets/photos/tips/flights/lufthansa.png",
+      "websiteUrl": "https://www.lufthansa.com/ca/en/homepage"
+    },
+    {
+      "imageUrl": "assets/photos/tips/flights/makemytrip.png",
+      "websiteUrl": "https://www.makemytrip.com/"
+    },
+    {
+      "imageUrl": "assets/photos/tips/flights/momondp.png",
+      "websiteUrl": "https://www.momondo.ca/?ispredir=true."
+    }
+  ],
+  [
+    {
+      "imageUrl": "assets/photos/tips/flights/nanakflights.jpg",
+      "websiteUrl": "https://www.nanakflights.com/"
+    },
+    {
+      "imageUrl": "assets/photos/tips/flights/onetravel.png",
+      "websiteUrl": "https://www.onetravel.com/"
+    },
+    {
+      "imageUrl": "assets/photos/tips/flights/orbitz.png",
+      "websiteUrl": "https://www.orbitz.com/"
+    },
+    {
+      "imageUrl": "assets/photos/tips/flights/SCOTTscheapflight.png",
+      "websiteUrl": "https://scottscheapflights.com/s"
+    }
+  ],
+  [
+    {
+      "imageUrl": "assets/photos/tips/flights/seatguru.jpg",
+      "websiteUrl": "https://www.seatguru.com/"
+    },
+    {
+      "imageUrl": "assets/photos/tips/flights/skiplagged.png",
+      "websiteUrl": "https://skiplagged.com/"
+    },
+    {
+      "imageUrl": "assets/photos/tips/flights/smartfares.png",
+      "websiteUrl": "https://www.smartfares.com/"
+    },
+    {
+      "imageUrl": "assets/photos/tips/flights/spirit.png",
+      "websiteUrl": "https://www.spirit.com/"
+    }
+  ],
+  [
+    {
+      "imageUrl": "assets/photos/tips/flights/studentuniverse.png",
+      "websiteUrl": "https://www.studentuniverse.com/"
+    },
+    {
+      "imageUrl": "assets/photos/tips/flights/swoop.png",
+      "websiteUrl": "https://www.flyswoop.com/book-a-flight/"
+    },
+    {
+      "imageUrl": "assets/photos/tips/flights/travelocity.png",
+      "websiteUrl": "https://www.travelocity.ca/Flights"
+    },
+    {
+      "imageUrl": "assets/photos/tips/accommodations/tripadvisor.png",
+      "websiteUrl": "https://www.tripadvisor.ca/"
+    }
+  ],
+  [
+    {
+      "imageUrl": "assets/photos/tips/flights/vayama.jpg",
+      "websiteUrl": "https://www.vayama.com/"
+    },
+    {
+      "imageUrl": "assets/photos/tips/flights/volaris.jpg",
+      "websiteUrl": "https://www.volaris.com/?culture=en-US&currency=USD"
+    },
+    {
+      "imageUrl": "assets/photos/tips/flights/watchdog.png",
+      "websiteUrl": "https://www.airfarewatchdog.com/"
+    },
+    {
+      "imageUrl": "assets/photos/tips/flights/wego.png",
+      "websiteUrl": "https://www.wegotravel.ca/flights"
+    }
+  ],
+  [
+    {
+      "imageUrl": "assets/photos/tips/flights/westjet.png",
+      "websiteUrl": "https://www.westjet.com/en-ca/index"
+    },
+    {
+      "imageUrl": "assets/photos/tips/flights/wizz.png",
+      "websiteUrl": "https://wizzair.com/en-gb#/"
+    }
+  ],
+ ];
 }

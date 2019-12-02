@@ -1,77 +1,75 @@
 <div class="row" style="margin-top: 100px">
-   <div class="col-3">
-
-        <div class="wrapper1">
-          <div class="link_wrapper1">
-                <div class = "button-text" (click)="showList(0)">Accommodation</div>
-                <div class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
-                        <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 
-                                    12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903
-                                    5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678
-                                    2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882
-                                    4.883-12.796 0-17.678z"/>
-                    </svg>
+   <div class="col-3" style="position: sticky">
+       <div>
+            <div class="wrapper0">
+                    <div id = "first" class = "button-text" (click)="showList(0)">Discounts</div>
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                            <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 
+                                        12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903
+                                        5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678
+                                        2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882
+                                        4.883-12.796 0-17.678z"/>
+                        </svg>
+                    </div>
                 </div>
-                <br>
-            </div>
-        </div>
-                
-        <div class="wrapper2">
-            <div class="link_wrapper2">
-                <div class = "button-text" (click)="showList(1)" >Flights</div>
-                <div class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
-                        <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 
-                                    12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903
-                                    5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678
-                                    2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882
-                                    4.883-12.796 0-17.678z"/>
-                    </svg>
+        
+                <div class="wrapper1">
+                    <div  id = "second" class = "button-text" (click)="showList(1)">Accommodation</div>
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                            <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 
+                                        12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903
+                                        5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678
+                                        2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882
+                                        4.883-12.796 0-17.678z"/>
+                        </svg>
+                    </div>
                 </div>
-                <br>
-            </div>
-        </div>
-
-
-        <div class="wrapper3">
-            <div class="link_wrapper3">
-                <div class = "button-text" (click)="showList(2)">Tourism</div>
-                <div class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
-                        <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 
-                                    12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903
-                                    5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678
-                                    2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882
-                                    4.883-12.796 0-17.678z"/>
-                    </svg>
+                            
+                <div class="wrapper2">
+                    <div  id = "third" class = "button-text" (click)="showList(2)" >Flights</div>
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                            <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 
+                                        12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903
+                                        5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678
+                                        2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882
+                                        4.883-12.796 0-17.678z"/>
+                        </svg>
+                    </div>
                 </div>
-                <br>
-            </div>
-        </div>
-
-        <div class="wrapper4">
-            <div class="link_wrapper4">
-                <div class = "button-text" (click)="showList(3)">Visa</div>
-                <div class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
-                        <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 
-                                    12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903
-                                    5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678
-                                    2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882
-                                    4.883-12.796 0-17.678z"/>
-                    </svg>
+        
+        
+                <div class="wrapper3">
+                    <div  id = "fourth" class = "button-text" (click)="showList(3)">Tourism</div>
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                            <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 
+                                        12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903
+                                        5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678
+                                        2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882
+                                        4.883-12.796 0-17.678z"/>
+                        </svg>
+                    </div>
                 </div>
-            </div>
-        </div>
+       </div>
 </div>
 
 <div class="col-9">
+    
+        <div *ngIf="showDiscount">
+            <div class="col-11">
+                <img style="width: 85%; text-align: center; 
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="{{discountList[0].imageUrl}}">
+            </div>
+        </div>
+
         <div *ngIf="showAccommodation">
             <div class = "row" *ngFor="let accommodationRow of accommodationList">
                     <div class="col-3 max-dimensions " *ngFor="let eachAccommodation of accommodationRow">
                         <div class="card card-styling ">
-                            <a style="vertical-align: middle;" href="{{eachAccommodation.websiteUrl}}"><img class="max-dimensions" src={{eachAccommodation.imageUrl}}></a>
+                            <a style="vertical-align: middle; text-align: center; " href="{{eachAccommodation.websiteUrl}}"><img class="max-dimensions" src={{eachAccommodation.imageUrl}}></a>
                         </div>
                     </div>
             </div>
@@ -81,7 +79,7 @@
             <div class = "row" *ngFor="let flightRow of flightList">
                 <div class="col-3 max-dimensions " *ngFor="let eachFlight of flightRow">
                     <div class="card card-styling ">
-                        <a style="vertical-align: middle;" href="{{eachFlight.websiteUrl}}"><img class="max-dimensions" src={{eachFlight.imageUrl}}></a>
+                        <a style="vertical-align: middle; text-align: center; " href="{{eachFlight.websiteUrl}}"><img class="max-dimensions" src={{eachFlight.imageUrl}}></a>
                     </div>
                 </div>
             </div>
@@ -91,19 +89,10 @@
             <div class = "row" *ngFor="let tourismRow of tourismList">
                 <div class="col-3 max-dimensions " *ngFor="let eachTourism of tourismRow">
                     <div class="card card-styling ">
-                        <a style="vertical-align: middle;" href="{{eachTourism.websiteUrl}}"><img class="max-dimensions" src={{eachTourism.imageUrl}}></a>
+                        <a style="vertical-align: middle; text-align: center; " href="{{eachTourism.websiteUrl}}"><img class="max-dimensions" src={{eachTourism.imageUrl}}></a>
                     </div>
                 </div>
             </div>
         </div>
-    
-        <div *ngIf="showVisa">
-            <div class = "row" *ngFor="let visaRow of visaList">
-                <div class="col-3 max-dimensions " *ngFor="let eachVisa of visaRow">
-                    <div class="card card-styling ">
-                        <a style="vertical-align: middle;" href="{{eachVisa.websiteUrl}}"><img class="max-dimensions" src={{eachVisa.imageUrl}}></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+</div>
 </div>
