@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { InterviewsComponent } from './interviews/interviews.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { AllInterviewsPageComponent } from './all-interviews-page/all-interviews-page.component';
-import { TipsComponent } from'./tips/tips.component';
+import { ResourcesComponent } from'./resources/resources.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { JoinUsComponent } from './join-us/join-us.component';
 import { RuiqiLiComponent } from './interviews/ruiqi-li/ruiqi-li.component';
@@ -23,8 +23,8 @@ export const appRoutes: Routes = [
     component: AllInterviewsPageComponent
   },
   {
-    path: 'tips',
-    component: TipsComponent
+    path: 'resources',
+    component: ResourcesComponent
   },
   {
     path: 'about-us',

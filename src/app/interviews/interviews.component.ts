@@ -124,7 +124,7 @@ export class InterviewsComponent implements OnInit {
       },
       this.joseMontoya = {
         name: "Jose Motoya",
-        headerQuote: "To get to know myself, what I like and dislike, how I react to sudden change, how well and fast I can adapt to a foreign environment",
+        headerQuote: "I expected To get to know myself, what I like and dislike and how I react to sudden change",
         headerPhoto: "joseMontoya/rome.jpg",
         widePhoto: "joseMontoya/longPhoto.png",
         favouriteDestination: "Continental Europe! Because is considerably cheap to travel around (especially Eastern Europe), and practically " +
