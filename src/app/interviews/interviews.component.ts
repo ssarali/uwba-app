@@ -182,8 +182,8 @@ export class InterviewsComponent implements OnInit {
       this.alexXie = {
         name: "Alex Xie",
         headerQuote: "Be comfortable with your plans and your style of travelling, because there's going to be complications and you want to deal with them in a good state of mind.",
-        headerPhoto: "alexXie/alexXieHeader.jpg",
-        widePhoto: "alexXie/longPhoto.jpg",
+        headerPhoto: "alexXie/img4.JPG",
+        widePhoto: "alexXie/img1.JPG",
         favouriteDestination: "Spain! It's the most vibrant country in Europe that I've been to, and I loved how different the food and culture was from my birth country (China) and Canada. I wish taking siestas was " +
           "acceptable in Canada :D ",
         nextCountry: "The next country on my list is definitely Iceland & Sweden (and probably the rest of the Scandinavian countries).",
@@ -194,12 +194,12 @@ export class InterviewsComponent implements OnInit {
         recommendations: "Make sure you know what type of traveller you are! It's really hard to try to be a different person, especially in an unfamiliar and exciting environment. For me, I tried really hard to be an " +
           "early-riser and ended up missing a flight because I booked one in the morning and thought I could wake up early. Be comfortable with your plans and your style of travelling, because there's going to be complications " +
           "and you want to deal with them in a good state of mind c: ",
-        img1: "alexXie/filla.jpg",
-        img2: "alexXie/img2.jpg",
-        img3: "alexXie/download.jpg",
-        img4: "alexXie/fill.jpg",
-        img5: "alexXie/img1.jpg",
-        img6: "alexXie/img3.jpg",
+        img1: "alexXie/img3.JPG",
+        img2: "alexXie/img2.JPG",
+        img3: "alexXie/img5.JPG",
+        img4: "alexXie/img6.JPG",
+        img5: "alexXie/img7.JPG",
+        img6: "",
         firstQuote: "Sometimes, I would have had a better time visiting places that I knew I would enjoy, rather than trying to hit all the attractions I possibly could. ",
       },
       this.sabrinaMastelloto = {
