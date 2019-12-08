@@ -14,8 +14,8 @@
     <div class="row row-spacing">
       <div class="col-1 border-single social-panel-fixed">
         <div class="social-panel-fixed">
-          <img src="assets/photos/fb_logo.png" class="social_fonts" id="facebook_icon">
-          <img src="assets/photos/insta_logo.png" class="social_fonts" id="instagram_icon">
+          <a href="https://www.facebook.com/UWBA2018"><img src="assets/photos/fb_logo.png" class="social_fonts" id="facebook_icon"></a>
+          <a href="https://www.instagram.com/uwba2018/"><img src="assets/photos/insta_logo.png" class="social_fonts" id="instagram_icon"></a>
         </div>
       </div>
 
@@ -34,11 +34,8 @@
               What country is next on your bucket list? 
           </p>
           <div class="row answer_text">
-            <div class="col-6">
+            <div class="col-12">
               {{interviewees[intervieweeId].nextCountry}}
-            </div>
-            <div class="col-6">
-              <img src="assets/photos/{{interviewees[intervieweeId].img1}}" style = "width: 100%; border-radius:1" class="shadow">
             </div>
           </div>
   
@@ -66,11 +63,14 @@
             {{interviewees[intervieweeId].tripExpectations}}
           </p>
 
-          <div class="row"> 
-            <div class="col-12" style="display: flex; justify-content: center;">
-                <blockquote class="generic-blockquote">
-                    {{interviewees[intervieweeId].firstQuote}}
-                </blockquote>      
+          <div class="row answer_text">
+            <div class="col-6" >
+            <blockquote class="generic-blockquote">
+                  {{interviewees[intervieweeId].firstQuote}}
+              </blockquote>      
+            </div>
+            <div class="col-6">
+              <img src="assets/photos/{{interviewees[intervieweeId].img1}}" style = "width: 100%; border-radius:1" class="shadow">
             </div>
           </div>
         

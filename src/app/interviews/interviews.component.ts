@@ -40,14 +40,12 @@ export class InterviewsComponent implements OnInit {
            "English, making it a whole lot easier to communicate. A great country to start would be France or " +
            "Germany, but my personal favourites are Portugal and Iceland. I really like the mix of culture and nature " +
            "you could get with visiting these two countries, and they’re both popular backpacking destinations. ",
-           nextCountry: "The last time I was trip planning for fun with my best friend, we made an entire itinerary for southern " +
-           "Spain, Gibraltar and northern Morocco. I don’t know when is the next time I’ll have enough time off to " +
-           "go, but hopefully it’s soon! I’ve also never visited Asia, and I feel like I’m missing out on a lot of " +
+           nextCountry: "I’ve never visited Asia, and I feel like I’m missing out on a lot of " +
            "wonderful experiences, so Japan and Nepal are high on my list." ,
            knewPrior: "I’ve been travelling with my family from a young age, so most of the things I did to prepare for/during my " + 
            "my trip came from experience and I didn’t have any major issues during my solo trips. However, as a " +
            "naturally shy person, I wish I reached out to some people living in/travelling to the countries I was " +
-           "naturally shy person, I wish I reached out to some people living in/travelling to the countries I was " +
+           "planning to be in. This would mean you don't need to woryy about making friends when you get there," +
            "but the latter option is often more fun. Lastly, I wish I had left some space in my bag for souvenirs or " +
            "useful items I pick up along the way!",
            tripExpectations: "I was expecting to have fun, but not nearly as much as I did during my adventures. I would say that not " +
@@ -66,9 +64,6 @@ export class InterviewsComponent implements OnInit {
            img5: "joanna/joannaImg5.JPG",
            img6: "joanna/joannaImg6.JPG",
            firstQuote: " I really like the mix of culture and nature you could get with visiting these two countries, and they’re both popular backpacking destinations.",
-        //    secondQuote: "hksjdf",
-        //    thirdQuote: "hksjdf",
-        //    fourthQuote: "hksjdf",
       },
       this.vetaParco = {
         name: "Veta Parco",
@@ -205,15 +200,15 @@ export class InterviewsComponent implements OnInit {
       this.sabrinaMastelloto = {
         name: "Sabrina Mastelloto",
         headerQuote: "Usually when the unexpected happens it when you create the best memories! ",
-        headerPhoto: "sabrinaMastelloto/sabrinaMastellotoHeader.jpg",
-        widePhoto: "sabrinaMastelloto/longPhoto.jpg",
+        headerPhoto: "sabrinaMastelloto/sabrina.jpg",
+        widePhoto: "sabrinaMastelloto/widephoto.jpg",
         favouriteDestination: "Thailand because it is such a wonderful country. Thailand is one of the very few countries that were never a colony or invaded by another country at any point in history, which makes their " +
           "history so rich and interesting. Their culture is also very different than mine. The food is amazing!! Pad Thai is so delicious!! Finally, it is the first country I have ever backpacked and when I visited it " +
           "I was with 2 of my best friends. ",
         nextCountry: "The next country on my list is Iceland! ",
         knewPrior: "I wish I knew/realized that packing less is more. I was aware that whatever I pack in my backpack I will have to carry it for the duration of my trip. For my trip to Thailand, I did the rookie mistake of " +
           "packing so many things that I never ended using during the trip, which they ended up annoying the whole trip because I had to carry them. ",
-        tripExpectations: "What I expect on my trip(s) is to meet many interesting people that has a love for traveling just like I do. I  love meeting people when I travel because you have a chance to share travel stories. " +
+        tripExpectations: "What I expect on my trip(s) is to meet many interesting people that has a love for traveling just like I do. I love meeting people when I travel because you have a chance to share travel stories. " +
           "Also, you make friends so easily, even if you are only with them for a couple of days. The friendship seem like it started many years ago, but really it started a couple hours/days ago. During my trip to Thailand, " +
           "my friends and I meet a solo traveler and we invited him to go out with us. We never expected to see him again when we said our goodbyes, but we saw each other again about a week later at a different island. It was " +
           "such a unexpected surprise. Neither one of us knew that we all had planned to visit that island. ",
@@ -222,12 +217,12 @@ export class InterviewsComponent implements OnInit {
           "During my trip to Thailand with my friends, one of them had made an itinerary for the whole trip and planned the activities we would do for each day. She did not think to consider the weather. I was thankful that we " +
           "got a couple rainy days because that's when we got to rest! Also, make sure to be flexible with your schedule. Usually when the unexpected happens it when you create the best memories! Oh and I would also recommended " +
           "to pack as little as they can and then remove some because it won't all fit on their backpack! ",
-        img1: "sabrinaMastelloto/filla.jpg",
-        img2: "sabrinaMastelloto/img2.jpg",
-        img3: "sabrinaMastelloto/download.jpg",
-        img4: "sabrinaMastelloto/fill.jpg",
-        img5: "sabrinaMastelloto/img1.jpg",
-        img6: "sabrinaMastelloto/img3.jpg",
+        img1: "sabrinaMastelloto/img1.jpg",
+        img2: "sabrinaMastelloto/img5.JPG",
+        img3: "sabrinaMastelloto/img5.JPG",
+        img4: "sabrinaMastelloto/img6.JPG",
+        img5: "sabrinaMastelloto/img2.JPG",
+        img6: "sabrinaMastelloto/img4.JPG",
         firstQuote: "It is necessary to have days or hours to simply relax and not always be on the go. ",
       },
     ];

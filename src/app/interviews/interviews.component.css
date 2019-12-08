@@ -88,8 +88,9 @@
     .generic-blockquote {
       padding: 20px 40px 20px 10px;
       border-left: 2px solid #f8b600;
-      margin-top: 2em;
-      width: 50%;
+      margin-top: 4em;
+      width: 80%;
+      margin-left: 0;
     }
 
     blockquote {
